@@ -1,4 +1,4 @@
-I am a graduate student in computer science at University of Wisconsin-Madison, advised by [Vikas Singh](https://www.biostat.wisc.edu/~vsingh/)
+I am a graduate student in computer science at University of Wisconsin-Madison, advised by Prof. [Vikas Singh](https://www.biostat.wisc.edu/~vsingh/).
 
 My research interest spans over representation learning, deep generative models with bio-scientific applications.
 
@@ -11,7 +11,7 @@ CV available upon request.
 * Representation learning
 * Inverse graphics
 
-###Publication
+## Publication
 * WAKE: A Behind-the-ear Wearable System for Microsleep Detection, MobiSys 2020
 * Tuan Dinh, Sathya Ravi, Tien Vo, Sukanya Venkataraman, Vikas Singh, "Can we do Hypothesis Tests with GANs for Graph Structured Data ? Models, Analysis, and Applications ",  2019 (under review)
 * Sathya Ravi, Tuan Dinh, Vishnu Lokhande, Vikas Singh, "The Promise of Conditional Gradient Methods for Training Deep Models", AAAI, 2019.
@@ -21,8 +21,8 @@ CV available upon request.
 
 ## Selected Reports
 * Inverse graphics for 3D objects (2019)
-* An Analysis of Generative Adversarial Networks Toward Addressing Mode Collapse (2017). Analyze GANs systemmatically via an 3-level model and propose a mean-matching approach which reduces mode missing problem on Stacked-MNIST dataset.
-* Graph Completion (2017). Recover signal adaptively using bandlimited signal sampling and wavelet transform on spectral graph domain. Applying this algorithm on neuroimaging data.
+* An Analysis of Generative Adversarial Networks Toward Addressing Mode Collapse (2017). Analyze GANs systematically via an 3-level model and propose a mean-matching approach which reduces mode missing problem on Stacked-MNIST dataset.
+* Graph Completion (2017). Recover signal adaptively using band-limited signal sampling and wavelet transform on spectral graph domain. Applying this algorithm on neuro-image data.
 
 ----
 ## Service & Activities

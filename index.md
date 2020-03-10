@@ -21,11 +21,11 @@ CV available upon request.
 * **Tuan Dinh**, Le, H. V., Cao, T. H., Diep, H. T., Luong, Q. C., "Forecasting the Magnitude of Dengue in Southern Vietnam", In Proceedings of the 8th ACIIDS, Springer, 2016
 
 ## Selected Reports
-* Semi-optimal transport autoregresive model (2020)
-* Inverse graphics for 3D objects (2019)
+* Semi-discrete Wasserstein Autoregresive (2020)
+* Probabilistic Framework for 3D objects Reconstruction using Inverse Graphics (2019)
 * A Robust Approach Toward Outlier Identification in Multi-armed Bandit (2018)
 * An Analysis of Generative Adversarial Networks Toward Addressing Mode Collapse (2017). Analyze GANs systematically via an 3-level model and propose a mean-matching approach which reduces mode missing problem on Stacked-MNIST dataset.
-* Graph Completion (2017). Recover signal adaptively using band-limited signal sampling and wavelet transform on spectral graph domain. Applying this algorithm on neuro-image data.
+* Small-scale Graph Completion (2017). Recover signal adaptively using band-limited signal sampling and wavelet transform on spectral graph domain. Applying this algorithm on neuro-image data.
 
 ----
 ## Service & Activities

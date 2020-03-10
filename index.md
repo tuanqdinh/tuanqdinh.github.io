@@ -22,5 +22,6 @@ CV available upon request.
 ## Selected Reports
 * An Analysis of Generative Adversarial Networks Toward Addressing Mode Collapse (2017). Analyze GANs systemmatically via an 3-level model and propose a mean-matching approach which reduces mode missing problem on Stacked-MNIST dataset.
 * Graph Completion (2017). Recover signal adaptively using bandlimited signal sampling and wavelet transform on spectral graph domain. Applying this algorithm on neuroimaging data.
----
+
+----
 ## Service & Activities

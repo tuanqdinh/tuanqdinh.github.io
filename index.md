@@ -1,8 +1,10 @@
+<p>
 I am a graduate student in computer science at University of Wisconsin-Madison, advised by Prof. [Vikas Singh](https://www.biostat.wisc.edu/~vsingh/).
 
 My research interest spans over representation learning, deep generative models with bio-scientific applications.
 
 CV available upon request.
+</p>
 
 ---
 
@@ -13,11 +15,11 @@ CV available upon request.
 
 ## Publication
 * WAKE: A Behind-the-ear Wearable System for Microsleep Detection, MobiSys 2020
-* Tuan Dinh, Sathya Ravi, Tien Vo, Sukanya Venkataraman, Vikas Singh, "Can we do Hypothesis Tests with GANs for Graph Structured Data ? Models, Analysis, and Applications ",  2019 (under review)
+* **Tuan Dinh**, Sathya Ravi, Tien Vo, Sukanya Venkataraman, Vikas Singh, "Can we do Hypothesis Tests with GANs for Graph Structured Data ? Models, Analysis, and Applications ",  2019 (under review)
 * Sathya Ravi, Tuan Dinh, Vishnu Lokhande, Vikas Singh, "The Promise of Conditional Gradient Methods for Training Deep Models", AAAI, 2019.
-* Tuan Dinh, Sathya Ravi, WonHwa Kim, Nagesh Adluru, Rebecca Koscik, Cynthia Carlsson, Sterling C. Johnson, Vikas Singh, "Graph Imputation techniques for estimating amyloid positivity from longitudinal cognitive and MRI measurements for efficient secondary prevention trials", 10th edition of Clinical Trials on Alzheimer’s Disease (CtaD2017), Boston, MA - USA, 2017
-* Tru Hoang Cao, Anh Duy Nguyen, Tuan Quang Dinh, Quang Chan Luong, Hai Thanh Diep, "Forecasting Dengue Incidences: Statistical and Dynamic Models", The Oxford Journal of Intelligent Decision and Data Science, Volume 2018, SI. 1 (2018), 1-13.
-* Dinh, T. Q., Le, H. V., Cao, T. H., Diep, H. T., Luong, Q. C., "Forecasting the Magnitude of Dengue in Southern Vietnam", In Proceedings of the 8th ACIIDS, Springer, 2016
+* **Tuan Dinh**, Sathya Ravi, WonHwa Kim, Nagesh Adluru, Rebecca Koscik, Cynthia Carlsson, Sterling C. Johnson, Vikas Singh, "Graph Imputation techniques for estimating amyloid positivity from longitudinal cognitive and MRI measurements for efficient secondary prevention trials", 10th edition of Clinical Trials on Alzheimer’s Disease (CtaD2017), Boston, MA - USA, 2017
+* Tru Hoang Cao, Anh Duy Nguyen, **Tuan Dinh**, Quang Chan Luong, Hai Thanh Diep, "Forecasting Dengue Incidences: Statistical and Dynamic Models", The Oxford Journal of Intelligent Decision and Data Science, Volume 2018, SI. 1 (2018), 1-13.
+* **Tuan Dinh**, Le, H. V., Cao, T. H., Diep, H. T., Luong, Q. C., "Forecasting the Magnitude of Dengue in Southern Vietnam", In Proceedings of the 8th ACIIDS, Springer, 2016
 
 ## Selected Reports
 * Inverse graphics for 3D objects (2019)

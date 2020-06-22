@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "An Analysis of Generative Adversarial Networks Toward Addressing Mode Collapse"
+date:   2017-08-22 00:10:26 +00:00
+image: /images/logo.png
+categories: UW
+course: "Madison"
+author: "Tuan Dinh, Varun Sah, Kurtis Liu"
+---
+Analyze GANs systematically via an 3-level model and propose a mean-matching approach which reduces mode missing problem on Stacked-MNIST dataset.

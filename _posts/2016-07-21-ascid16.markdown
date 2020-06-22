@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Forecasting the Magnitude of Dengue in Southern Vietnam"
+date:   2016-07-21 22:21:59 +00:00
+image: /images/logo.png
+categories: research
+author: "Tuan Dinh"
+subtitle: "Spatial network for dengue forecast"
+authors: "**Tuan Dinh**, Le, H. V., Cao, T. H., Diep, H. T., Luong, Q. C."
+---

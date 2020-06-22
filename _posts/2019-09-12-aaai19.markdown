@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "The Promise of Conditional Gradient Methods for Training Deep Models"
+date:   2019-09-12 22:20:59 +00:00
+image: /images/logo.png
+categories: research
+author: "Sathya Ravi"
+subtitle: "Oral"
+venue: "AAAI"
+slides: /pdfs/
+authors: "Sathya Ravi, **Tuan Dinh**, Vishnu Lokhande, Vikas Singh"
+---
+[Presented Slides](){:target="_blank"}
+

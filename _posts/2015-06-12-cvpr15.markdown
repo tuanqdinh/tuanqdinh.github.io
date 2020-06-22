@@ -2,7 +2,7 @@
 layout: post
 title:  "Rigid-body Dynamics for Articulated Mesh Tracking"
 date:   2015-06-12 22:20:59 +00:00
-image: /images/hands2015.png
+image: /images/logo_thinker.png
 categories: research
 author: "Leo Keselman"
 subtitle: "Invited Workshop Talk"

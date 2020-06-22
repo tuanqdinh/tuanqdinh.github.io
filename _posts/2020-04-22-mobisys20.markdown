@@ -5,6 +5,8 @@ date:   2020-04-22 22:21:59 +00:00
 image: /images/logo.png
 categories: research
 author: "Nhat Pham"
+subtitle: "Oral"
+venue: "MobiSys"
 subtitle: "Earable device for micro-sleep detection"
-authors: "Nhat Pham, **Tuan Dinh**, Tam Vu"
+authors: "Nhat Pham, <strong>Tuan Dinh</strong>, Tam Vu"
 ---

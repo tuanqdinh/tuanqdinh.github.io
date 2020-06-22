@@ -8,7 +8,7 @@ author: "Sathya Ravi"
 subtitle: "Oral"
 venue: "AAAI"
 slides: /pdfs/
-authors: "Sathya Ravi, **Tuan Dinh**, Vishnu Lokhande, Vikas Singh"
+authors: "Sathya Ravi, <strong>Tuan Dinh</strong>, Vishnu Lokhande, Vikas Singh"
 ---
 [Presented Slides](){:target="_blank"}
 

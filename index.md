@@ -1,6 +1,5 @@
 
-I am a graduate student in computer science at the University of Wisconsin-Madison, advised by Prof. [Vikas Singh](https://www.biostat.wisc.edu/~vsingh/).
-
+I am a graduate student in computer science at the University of Wisconsin-Madison.
 My research interest spans over representation learning, deep generative models with bio-inspired scientific applications.
 
 CV available upon request.

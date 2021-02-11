@@ -7,8 +7,8 @@ categories: research
 author: "Sathya Ravi"
 subtitle: "Oral"
 venue: "AAAI"
-slides: /pdfs/
+# slides: /pdfs/
 authors: "Sathya Ravi, <strong>Tuan Dinh</strong>, Vishnu Lokhande, Vikas Singh"
 ---
-[Presented Slides](){:target="_blank"}
+<!-- [Presented Slides](){:target="_blank"} -->
 

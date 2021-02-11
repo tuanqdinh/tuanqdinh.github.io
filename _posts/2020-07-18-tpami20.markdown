@@ -5,9 +5,9 @@ date:   2020-07-18 22:20:59 +00:00
 image: /images/logo.png
 categories: research
 author: "Tuan Dinh"
-subtitle: "To Appear"
+# subtitle: "To Appear"
 venue: "Transactions on Pattern Analysis and Machine Intelligence"
-slides: /pdfs/
+# slides: /pdfs/
 authors: "<strong>Tuan Dinh</strong>, Yunyang Xiong, Zhichun Huang, Tien Vo, Akshay Mishra, Won Hwa Kim, Sathya Ravi, Vikas Singh"
 ---
-[Presented Slides](){:target="_blank"}
+<!-- [Presented Slides](){:target="_blank"} -->

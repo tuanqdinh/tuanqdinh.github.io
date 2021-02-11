@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "WAKE: A Behind-the-ear Wearable System for Microsleep Detection"
+date:   2020-07-18 22:20:59 +00:00
+image: /images/logo.png
+categories: research
+author: "Tuan Dinh"
+# subtitle: "To Appear"
+venue: "MobiSys 2020"
+# slides: /pdfs/
+authors: "Nhat Pham, <strong>Tuan Dinh</strong>, Zohreh Raghebi, Taeho Kim, Nam Bui, Phuc Nguyen, Hoang Truong, Farnoush Banaei-Kashani, Ann Halbower, Thang Dinh, and Tam Vu"
+---
+<!-- [Presented Slides](){:target="_blank"} -->

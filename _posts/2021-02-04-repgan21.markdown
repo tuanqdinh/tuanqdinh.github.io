@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "RepGAN: Learning Conditional GANs via Reprogramming Unconditional GANs"
+date:   2020-07-18 22:20:59 +00:00
+image: /images/logo.png
+categories: research
+author: "Tuan Dinh"
+# subtitle: "To Appear"
+venue: "In submission"
+# slides: /pdfs/
+authors: "<strong>Tuan Dinh</strong>, Daewon Seo, Zhixu Du, Liang Shang, Kangwook Lee"
+---
+<!-- [Presented Slides](){:target="_blank"} -->

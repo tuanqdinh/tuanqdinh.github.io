@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "RepGAN: Learning Conditional GANs via Reprogramming Unconditional GANs"
+title:  "Reprogramming Unconditional Generators Into Conditional Generators"
 date:   2020-07-18 22:20:59 +00:00
 image: /images/logo.png
 categories: research

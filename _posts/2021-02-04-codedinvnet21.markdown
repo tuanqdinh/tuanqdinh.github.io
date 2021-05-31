@@ -6,7 +6,7 @@ image: /images/logo.png
 categories: research
 author: "Tuan Dinh, Kangwook Lee"
 # subtitle: "submitted"
-venue: "In submission"
+venue: "ICML21 (Long Oral)"
 # slides: /pdfs/
 authors: "<strong>Tuan Dinh</strong>, Kangwook Lee"
 ---

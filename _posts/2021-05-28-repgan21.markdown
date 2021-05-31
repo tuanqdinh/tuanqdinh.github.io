@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Reprogramming Unconditional Generators Into Conditional Generators"
+date:   2021-05-28 22:20:59 +00:00
+image: /images/logo.png
+categories: research
+author: "Tuan Dinh"
+# subtitle: "To Appear"
+venue: "In submission"
+# slides: /pdfs/
+authors: "<strong>Tuan Dinh</strong>, Daewon Seo, Zhixu Du, Liang Shang, Kangwook Lee"
+---
+<!-- [Presented Slides](){:target="_blank"} -->

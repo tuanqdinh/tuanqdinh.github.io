@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Coded-InvNet for Resilient Prediction Serving Systems"
-date:   2021-02-04 22:20:59 +00:00
+date:   2021-07-17 22:20:59 +00:00
 image: /images/codedinvnet.png
 categories: research
 author: "Tuan Dinh, Kangwook Lee"

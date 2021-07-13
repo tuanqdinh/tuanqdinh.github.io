@@ -2,7 +2,7 @@
 layout: post
 title:  "Detection of Microsleep Events with a Behind-the-ear Wearable System"
 date:   2021-04-18 22:20:59 +00:00
-image: /images/logo.png
+image: /images/tmc.png
 categories: research
 author: "Tuan Dinh"
 # subtitle: "To Appear"

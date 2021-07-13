@@ -2,7 +2,7 @@
 layout: post
 title:  "Forecasting the Magnitude of Dengue in Southern Vietnam"
 date:   2016-07-21 22:21:59 +00:00
-image: /images/logo.png
+image: /images/dengue.png
 categories: research
 author: "Tuan Dinh"
 subtitle: "Oral"

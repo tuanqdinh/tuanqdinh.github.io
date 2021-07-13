@@ -2,7 +2,7 @@
 layout: post
 title:  "WAKE: A Behind-the-ear Wearable System for Microsleep Detection"
 date:   2020-07-18 22:20:59 +00:00
-image: /images/logo.png
+image: /images/wake.png
 categories: research
 author: "Tuan Dinh"
 subtitle: "Oral"

@@ -2,7 +2,7 @@
 layout: post
 title:  "Reprogramming Unconditional Generators Into Conditional Generators"
 date:   2021-05-28 22:20:59 +00:00
-image: /images/logo.png
+image: /images/repgan.png
 categories: research
 author: "Tuan Dinh"
 # subtitle: "To Appear"

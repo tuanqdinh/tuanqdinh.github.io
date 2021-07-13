@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Graph Imputation techniques for estimating amyloid positivity from longitudinal cognitive and MRI measurements for efficient secondary prevention trials"
+date:   2017-09-12 22:20:59 +00:00
+image: /images/logo.png
+categories: research
+author: "Tuan Dinh"
+# subtitle: ""
+venue: "10th edition of Clinical Trials on Alzheimer’s Disease (CtaD2017)"
+# slides: /pdfs/
+authors: "<strong>Tuan Dinh</strong>, Sathya Ravi, WonHwa Kim, Nagesh Adluru, Rebecca Koscik, Cynthia Carlsson, Sterling C. Johnson, Vikas Singh"
+---
+<!-- [Presented Slides](){:target="_blank"} -->
+

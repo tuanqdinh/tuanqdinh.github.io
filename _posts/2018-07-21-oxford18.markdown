@@ -5,7 +5,7 @@ date:   2018-07-21 22:21:59 +00:00
 image: /images/logo.png
 categories: research
 author: "Tuan Dinh"
-subtitle: "Oral"
+# subtitle: "Oral"
 venue: "The Oxford Journal of Intelligent Decision and Data Science"
 authors: "Tru Hoang Cao, Anh Duy Nguyen, <strong>Tuan Dinh</strong>, Quang Chan Luong, Hai Thanh Diep."
 ---

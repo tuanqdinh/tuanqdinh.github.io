@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Reprogramming Unconditional Generators Into Conditional Generators"
+title:  "Efficient model adjustment"
 date:   2021-05-28 22:20:59 +00:00
 image: /images/repgan.png
 categories: research

@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Efficient model adjustment"
-date:   2021-05-28 22:20:59 +00:00
+title:  "Improved Input Reprogramming for GAN Conditioning"
+date:   2022-05-28 22:20:59 +00:00
 image: /images/logo.png #/images/repgan.png
 categories: research
 author: "Tuan Dinh"
 # subtitle: "To Appear"
-venue: "In submission"
-# slides: /pdfs/
+venue: "ICML-2022 UpML Workshop"
+pdf: https://arxiv.org/abs/2201.02692
 authors: "<strong>Tuan Dinh</strong>, Daewon Seo, Zhixu Du, Liang Shang, Kangwook Lee"
 ---
 <!-- [Presented Slides](){:target="_blank"} -->

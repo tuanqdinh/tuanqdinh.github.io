@@ -7,6 +7,7 @@ categories: research
 author: "Tuan Dinh, Kangwook Lee"
 # subtitle: "submitted"
 venue: "ICML (Long Talk -- 3%)"
+arxiv: "https://arxiv.org/abs/2106.06445"
 # slides: /pdfs/
 authors: "<strong>Tuan Dinh</strong>, Kangwook Lee"
 ---

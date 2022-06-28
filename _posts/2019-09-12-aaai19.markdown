@@ -7,7 +7,7 @@ categories: research
 author: "Sathya Ravi"
 subtitle: "Oral"
 venue: "AAAI"
-# slides: /pdfs/
+arxiv: "https://arxiv.org/abs/1803.06453"
 authors: "Sathya Ravi, <strong>Tuan Dinh</strong>, Vishnu Lokhande, Vikas Singh"
 ---
 <!-- [Presented Slides](){:target="_blank"} -->

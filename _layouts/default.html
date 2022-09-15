@@ -82,9 +82,8 @@
               {{post.authors}}
               <br>
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}. 
-              (
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}">link</a>
+              ({% if post.arxiv %}
+              <a href="{{post.arxiv}}">link</a>)
               {% endif %}
               {% if post.video %}
               <a href="{{post.video}}">video</a> /
@@ -99,7 +98,6 @@
               <a href="{{post.slides}}">slides</a> /
               {% endif %}
               <!-- <p></p> -->
-              )
               {{ post.excerpt }}
             </td>
           </tr>
@@ -126,9 +124,8 @@
               {{post.authors}}
               <br>
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}. 
-              (
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}">link</a>
+              ({% if post.arxiv %}
+              <a href="{{post.arxiv}}">link</a>)
               {% endif %}
               {% if post.video %}
               <a href="{{post.video}}">video</a> /

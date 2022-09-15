@@ -3,7 +3,7 @@ layout: post
 title:  "Improved Input Reprogramming for GAN Conditioning"
 date:   2022-05-28 22:20:59 +00:00
 image: /images/logo.png #/images/repgan.png
-categories: research
+categories: ml
 author: "Tuan Dinh"
 # subtitle: "To Appear"
 venue: "ICML (UpML)"

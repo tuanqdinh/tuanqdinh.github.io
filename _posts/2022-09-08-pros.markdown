@@ -3,7 +3,7 @@ layout: post
 title:  "PROS: an Efficient Pattern-Driven Compressive Sensing Framework for Low-Power Biopotentialbased Wearables with On-chip Intelligence"
 date:   2020-08-18 22:20:59 +00:00
 image: /images/wake.png
-categories: research
+categories: applied
 author: "Tuan Dinh"
 subtitle: "Oral"
 venue: "To appear in MobiCom"

@@ -3,7 +3,7 @@ layout: post
 title:  "Forecasting Dengue Incidences: Statistical and Dynamic Models"
 date:   2018-07-21 22:21:59 +00:00
 image: /images/oxford.png
-categories: research
+categories: applied
 author: "Tuan Dinh"
 # subtitle: "Oral"
 venue: "The Oxford Journal of Intelligent Decision and Data Science"

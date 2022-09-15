@@ -3,7 +3,7 @@ layout: post
 title:  "Detection of Microsleep Events with a Behind-the-ear Wearable System"
 date:   2021-04-18 22:20:59 +00:00
 image: /images/tmc.png
-categories: research
+categories: applied
 author: "Tuan Dinh"
 # subtitle: "To Appear"
 venue: "IEEE TMC -- IEEE Transactions on Mobile Computing (IF: 5.112)"

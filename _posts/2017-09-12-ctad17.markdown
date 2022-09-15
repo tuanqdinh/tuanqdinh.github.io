@@ -3,7 +3,7 @@ layout: post
 title:  "Graph Imputation techniques for estimating amyloid positivity from longitudinal cognitive and MRI measurements for efficient secondary prevention trials"
 date:   2017-09-12 22:20:59 +00:00
 image: /images/logo.png
-categories: research
+categories: applied
 author: "Tuan Dinh"
 # subtitle: ""
 venue: "10th edition of Clinical Trials on Alzheimer’s Disease (CtaD2017)"

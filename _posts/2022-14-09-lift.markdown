@@ -3,7 +3,7 @@ layout: post
 title:  "LIFT: Language-Interfaced Fine-Tuning for Non-Language Machine Learning Tasks"
 date:   2022-09-08 22:20:59 +00:00
 image: /images/codedinvnet.png
-categories: research
+categories: ml
 author: "Tuan Dinh, Yuchen Zeng, Ruisu Zhang, Ziqian Lin, Michael Gira, Shashank Rajput, Jy-yong Sohn, Dimitris Papailiopoulos, Kangwook Lee"
 # subtitle: "submitted"
 venue: "To appear in NeurIPS"

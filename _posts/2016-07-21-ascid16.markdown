@@ -6,7 +6,7 @@ image: /images/dengue.png
 categories: applied
 author: "Tuan Dinh"
 subtitle: "Oral"
-venue: "ACIIDS"
+venue: "ACIIDS (Oral)"
 subtitle: "Spatial network for dengue forecast"
 authors: "<strong>Tuan Dinh</strong>, Le, H. V., Cao, T. H., Diep, H. T., Luong, Q. C."
 ---

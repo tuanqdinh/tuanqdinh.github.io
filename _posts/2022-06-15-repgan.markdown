@@ -6,7 +6,7 @@ image: /images/logo.png #/images/repgan.png
 categories: research
 author: "Tuan Dinh"
 # subtitle: "To Appear"
-venue: "ICML UpML Workshop"
+venue: "ICML (UpML)"
 arxiv: https://arxiv.org/abs/2201.02692
 authors: "<strong>Tuan Dinh</strong>, Daewon Seo, Zhixu Du, Liang Shang, Kangwook Lee"
 ---

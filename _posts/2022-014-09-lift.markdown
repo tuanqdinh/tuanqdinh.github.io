@@ -6,7 +6,7 @@ image: /images/codedinvnet.png
 categories: research
 author: "Tuan Dinh, Yuchen Zeng, Ruisu Zhang, Ziqian Lin, Michael Gira, Shashank Rajput, Jy-yong Sohn, Dimitris Papailiopoulos, Kangwook Lee"
 # subtitle: "submitted"
-venue: "Preprint"
+venue: "To appear in NeurIPS"
 arxiv: "https://arxiv.org/abs/2206.06565"
 authors: "<strong>Tuan Dinh*</strong>, Yuchen Zeng*, Ruisu Zhang, Ziqian Lin, Michael Gira, Shashank Rajput, Jy-yong Sohn, Dimitris Papailiopoulos, Kangwook Lee"
 ---

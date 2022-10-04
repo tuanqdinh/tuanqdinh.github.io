@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Training System for Artificial Neural Networks Having a Global Weight Constrainer"
+date:   2020-05-14 22:20:59 +00:00
+image: /images/deepcg.png
+categories: patent
+author: "Sathya Ravi"
+venue: "US 16186121"
+link: "https://patentimages.storage.googleapis.com/ec/8d/2a/ffb20e257df4fd/US20200151570A1.pdf"
+authors: "Sathya Ravi, <strong>Tuan Dinh</strong>, Vishnu Lokhande, Vikas Singh"
+---
+<!-- [Presented Slides](){:target="_blank"} -->
+

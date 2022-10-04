@@ -160,7 +160,28 @@
         {% endfor %}
         {% endfor %}
         </ol>
-       
+        <br>
+
+        <h3 style="padding-left:2.5%;padding-bottom:0.5%;width:100%;vertical-align:bottom">Patents</h3>
+        <ol>
+        {% for post in site.posts %}
+        {% for cat in post.categories %}
+        {% if cat == 'patent' %}
+          <li style="padding-left:2.5%;padding-bottom:0.5%;width:75%;vertical-align:bottom">
+            <h3 style="color:navy;">{{post.title}}</h3>
+            <br>
+            {{post.authors}}
+            <br>
+            <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}. 
+            {% if post.link %}
+            <a href="{{post.link}}">link</a>
+            {% endif %}
+          </li>
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+        </ol>
+
         <br>
         <br>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">

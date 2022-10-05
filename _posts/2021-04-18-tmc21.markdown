@@ -6,7 +6,7 @@ image: /images/tmc.png
 categories: applied
 author: "Tuan Dinh"
 # subtitle: "To Appear"
-venue: "IEEE TMC -- IEEE Transactions on Mobile Computing (IF: 5.112)"
+venue: "IEEE Transactions on Mobile Computing"
 # slides: /pdfs/
 authors: "Nhat Pham, <strong>Tuan Dinh</strong>, Zohreh Raghebi, Taeho Kim, Nam Bui, Phuc Nguyen, Hoang Truong, Tuan Nguyen, Farnoush Banaei-Kashani, Ann Halbower, Thang Dinh, and Tam Vu"
 ---

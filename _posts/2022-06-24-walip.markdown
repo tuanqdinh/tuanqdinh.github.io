@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Utilizing Language-Image Pretraining for Efficient and Robust Bilingual Word Alignment"
-date:   2022-07-10 22:20:59 +00:00
+date:   2022-10-06 22:20:59 +00:00
 image: /images/codedinvnet.png
 categories: preprint
 author: "Tuan Dinh, Kangwook Lee"
 # subtitle: "submitted"
-venue: "Preprint"
+venue: "EMNLP (Findings)"
 arxiv: "https://arxiv.org/abs/2205.11616"
 authors: "<strong>Tuan Dinh</strong>, Jy-yong Sohn, Shashank Rajput, Timothy Ossowski, Yifei Ming, Junjie Hu, Dimitris Papailiopoulos, Kangwook Lee"
 ---

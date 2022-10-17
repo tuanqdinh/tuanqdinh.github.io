@@ -7,6 +7,6 @@ categories: preprint
 # subtitle: "submitted"
 venue: "Accepted to AMLC (ML for code)"
 # arxiv: ""
-authors: "<strong>Tuan Dinh*</strong>, Jinman Zhao, Samson Tan, Renato Negrinho, Sheng Zha, George Karypis"
+authors: "<strong>Tuan Dinh</strong>, Jinman Zhao, Samson Tan, Renato Negrinho, Sheng Zha, George Karypis"
 ---
 <!-- [Presented Slides](){:target="_blank"} -->

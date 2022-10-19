@@ -8,6 +8,8 @@ author: "Tuan Dinh, Yuchen Zeng, Ruisu Zhang, Ziqian Lin, Michael Gira, Shashank
 # subtitle: "submitted"
 venue: "To appear in NeurIPS"
 arxiv: "https://arxiv.org/abs/2206.06565"
+code: "https://github.com/UW-Madison-Lee-Lab/LanguageInterfacedFineTuning"
+summary: "We propose the use of natural language interface for learning non-language tasks with pretrained language models."
 authors: "<strong>Tuan Dinh*</strong>, Yuchen Zeng*, Ruisu Zhang, Ziqian Lin, Michael Gira, Shashank Rajput, Jy-yong Sohn, Dimitris Papailiopoulos, Kangwook Lee"
 ---
 <!-- [Presented Slides](){:target="_blank"} -->

@@ -6,6 +6,8 @@ image: /images/codedinvnet.png
 categories: ml
 venue: "To appear in EMNLP (Findings)"
 arxiv: "https://arxiv.org/abs/2205.11616"
+code: "https://github.com/UW-Madison-Lee-Lab/walip"
+summary: "WALIP provides an unsupervised method for bilingual alignment utilizing text-image correlation with the CLIP-based embedding."
 authors: "<strong>Tuan Dinh</strong>, Jy-yong Sohn, Shashank Rajput, Timothy Ossowski, Yifei Ming, Junjie Hu, Dimitris Papailiopoulos, Kangwook Lee"
 ---
 <!-- [Presented Slides](){:target="_blank"} -->

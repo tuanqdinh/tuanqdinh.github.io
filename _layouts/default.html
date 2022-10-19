@@ -44,9 +44,9 @@
                 </blockquote>
 
               <p >I am a Ph.D. student in computer science at the University of Wisconsin-Madison, with minor in statistics. <br/>
-                I'm currently working with Prof. <a href="https://kangwooklee.com/">Kangwook Lee</a>. 
+                I'm currently advised by with Prof. <a href="https://kangwooklee.com/">Kangwook Lee</a>. 
                 Previously, I have worked with Prof. <a href="https://www.biostat.wisc.edu/~vsingh/">Vikas Singh</a> in learning generative models for graph-structured data and medical images.
-                Prior to graduate studies, I have worked with Prof. <a href="https://sph.uth.edu/faculty/index.htm#KAxVpHwjEQAbZXgfZvxCQA==">Tru Cao</a> in learning AI systems for disease forecast and healthcare.
+                Prior to graduate studies, I have worked with Prof. <a href="https://sph.uth.edu/faculty/index.htm#KAxVpHwjEQAbZXgfZvxCQA==">Tru Cao</a> in building AI systems for disease forecast and healthcare.
               </p>
             </td>
             <td style="padding-left:2.5%;padding-bottom:0.5%;width:40%;max-width:40%">
@@ -112,7 +112,15 @@
             <br>
             <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}. 
             {% if post.arxiv %}
-            <a href="{{post.arxiv}}">link</a>
+            <a href="{{post.arxiv}}">pdf</a>
+            {% if post.code %}
+            / <a href="{{post.code}}">pdf</a>
+            {% if post.summary %}
+            <br>
+            <details>
+              <summary>Summary</summary>
+              <p>{{post.summary}}</p>
+            </details>
             {% endif %}
           </li>
         {% endif %}
@@ -133,7 +141,15 @@
             <br>
             <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}. 
             {% if post.arxiv %}
-            <a href="{{post.arxiv}}">link</a>
+            <a href="{{post.arxiv}}">pdf</a>
+            {% if post.code %}
+            / <a href="{{post.code}}">pdf</a>
+            {% if post.summary %}
+            <br>
+            <details>
+              <summary>Summary</summary>
+              <p>{{post.summary}}</p>
+            </details>
             {% endif %}
           </li>
         {% endif %}
@@ -154,7 +170,15 @@
             <br>
             <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}. 
             {% if post.arxiv %}
-            <a href="{{post.arxiv}}">link</a>
+            <a href="{{post.arxiv}}">pdf</a>
+            {% if post.code %}
+            / <a href="{{post.code}}">pdf</a>
+            {% if post.summary %}
+            <br>
+            <details>
+              <summary>Summary</summary>
+              <p>{{post.summary}}</p>
+            </details>
             {% endif %}
           </li>
         {% endif %}
@@ -176,6 +200,14 @@
             <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}. 
             {% if post.link %}
             <a href="{{post.link}}">link</a>
+            {% if post.code %}
+            / <a href="{{post.code}}">pdf</a>
+            {% if post.summary %}
+            <br>
+            <details>
+              <summary>Summary</summary>
+              <p>{{post.summary}}</p>
+            </details>
             {% endif %}
           </li>
         {% endif %}

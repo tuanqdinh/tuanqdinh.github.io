@@ -6,7 +6,7 @@ image: /images/wake.png
 categories: applied
 author: "Tuan Dinh"
 subtitle: "Oral"
-venue: "To appear in MobiCom"
+venue: "MobiCom (the International Conference on Mobile Computing And Networking)"
 # slides: /pdfs/
 authors: "Nhat Pham, Hong Jia, Minh Tran,  <strong>Tuan Dinh</strong>, Nam Bui, Young Kwon, Dong Ma, Phuc Nguyen, Cecilia Mascolo, and Tam Vu"
 ---

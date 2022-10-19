@@ -8,6 +8,7 @@ author: "Tuan Dinh"
 # subtitle: "To Appear"
 venue: "ICML (UpML)"
 arxiv: https://arxiv.org/abs/2201.02692
+summary: "InRep+ is an input reprogramming framework for repurpose pretrained unconditional generative models to generate conditional samples."
 authors: "<strong>Tuan Dinh</strong>, Daewon Seo, Zhixu Du, Liang Shang, Kangwook Lee"
 ---
 <!-- [Presented Slides](){:target="_blank"} -->

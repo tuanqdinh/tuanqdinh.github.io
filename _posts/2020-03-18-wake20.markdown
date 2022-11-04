@@ -5,7 +5,7 @@ date:   2020-07-18 22:20:59 +00:00
 image: /images/wake.png
 categories: applied
 author: "Tuan Dinh"
-venue: "In Proceedings of the 2021 MobiSys (International Conference on Mobile Systems, Applications, and Services)"
+venue: "In Proceedings of the 2020 MobiSys (International Conference on Mobile Systems, Applications, and Services)"
 # slides: /pdfs/
 badge: "MobiSys"
 authors: "Nhat Pham, <ins><strong>Tuan Dinh</strong></ins>, Zohreh Raghebi, Taeho Kim, Nam Bui, Phuc Nguyen, Hoang Truong, Farnoush Banaei-Kashani, Ann Halbower, Thang Dinh, and Tam Vu"

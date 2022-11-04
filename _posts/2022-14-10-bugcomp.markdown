@@ -3,10 +3,11 @@ layout: post
 title:  "Completing Code with Code Language Models"
 date:   2022-10-14 22:20:59 +00:00
 image: /images/codedinvnet.png
-categories: preprint
+categories: ml
 # subtitle: "submitted"
-venue: "Accepted to AMLC (ML for code)"
+venue: "In Proceedings of the Machine Learning for Code Workshop at Amazon Machine Learning Conference (ML for code)"
 # arxiv: ""
-authors: "<strong>Tuan Dinh</strong>, Jinman Zhao, Samson Tan, Renato Negrinho, Sheng Zha, George Karypis"
+badge: "AMLC"
+authors: "<ins><strong>Tuan Dinh</strong></ins>, Jinman Zhao, Samson Tan, Renato Negrinho, Sheng Zha, George Karypis"
 ---
 <!-- [Presented Slides](){:target="_blank"} -->

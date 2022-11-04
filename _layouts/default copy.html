@@ -1,0 +1,230 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <title>{{ site.name }}</title>
+
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+  <meta name="author" content="{{ site.name }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" type="image/x-icon" href="images/bucky.png" />
+
+</head>
+
+
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;">
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;">
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:60%;vertical-align:middle">
+              <h1>
+                Tuan Dinh <br>
+              </h1>
+              <p style="text-align:center;">tuan.dinh@wisc.edu</p>
+              <p style="text-align:center">
+                <a href="https://github.com/tuan-dinh">GitHub</a> &nbsp;/&nbsp;
+                <a href="https://twitter.com/tuanqdinh">Twitter</a>
+              </p>
+                <blockquote>
+                  <p style="font-style: italic;">
+                    Learning does not make one learned: there are those who have knowledge and those who have understanding. <br/>
+                  The first requires memory and the second philosophy.
+                  </p>
+                  <p style="text-align:right">
+                    &mdash; <cite>The Count of Monte Cristo</cite>  </figcaption>
+                  </p>
+                </blockquote>
+
+              <p >I am a Ph.D. student in computer science at the University of Wisconsin-Madison, with minor in statistics. <br/>
+                I'm currently advised by with Prof. <a href="https://kangwooklee.com/">Kangwook Lee</a>. 
+                Previously, I have worked with Prof. <a href="https://www.biostat.wisc.edu/~vsingh/">Vikas Singh</a> in learning generative models for graph-structured data and medical images.
+                Prior to graduate studies, I have worked with Prof. <a href="https://sph.uth.edu/faculty/index.htm#KAxVpHwjEQAbZXgfZvxCQA==">Tru Cao</a> in building AI systems for disease forecast and healthcare. <br>
+                I am actively looking for the full-time postdocs,
+              </p>
+            </td>
+            <td style="padding-left:2.5%;padding-bottom:0.5%;width:40%;max-width:40%">
+              <img style="width:85%;max-width:85%" alt="profile photo" src="images/circle_ava.png">
+            </td>
+          </tr>
+        </table>
+
+        <!-- <h3 style="padding-left:2.5%;padding-bottom:0.5%;width:100%;vertical-align:middle" >Updates</h3>
+        <div class="vwrap"><div class="vmove">
+          <div class="vitem"></div>
+          <div class="vitem">[Sep 22] LIFT is accepted to NeurIPS 2022. Thank you all -- our great team to make this happen.</div>
+          <div class="vitem"></div>
+          <div class="vitem"></div>
+          <div class="vitem"></div>
+          <div class="vitem"></div>
+          <div class="vitem"></div>
+        </div></div> -->
+
+        <!-- <div style="width:150px;height:150px;line-height:3em;overflow:scroll;padding:5px;">
+          This 'div' element uses 'overflow:scroll' to create scrollbars. 
+          </div> -->
+        
+        <h3 style="padding-left:2.5%;padding-bottom:0%;width:100%;vertical-align:middle;" >Updates</h3>
+        <div style="padding-left:2.5%;padding-bottom:0%;padding-top:0%;width:100%;vertical-align:middle;height:100px;line-height:2em;overflow:scroll;">
+          <ul style="list-style-type:none">
+            <li><a href="#">[Oct 22]</a> BugComp is accepted to AMLC (ML for Code)</li>
+            <li><a href="#">[Oct 22]</a> WALIP is accepted to the Findings of EMNLP 2022</li>
+            <li><a href="#">[Sep 22]</a> LIFT is accepted to NeurIPS 2022. Thank you all -- our great team to make this happen!</li>
+            <li><a href="#">[Aug 22]</a> PROS is accepted to MobiCom 2022. Thanks great collaborators from Oxford and CU-Boulder.</li>
+            <li><a href="#">[Jun 22]</a> Starts internship at AWS AI Research and Education</li>
+            <li><a href="#">[Jun 22]</a> Our LIFT paper is available on Arxiv</li>
+            <li><a href="#">[Jun 22]</a> Our WALIP paper is available on Arxiv</li>
+            <li><a href="#">[May 21]</a> CodedInvnet is accepted to ICML-21</li>
+            <li><a href="#">[Jul 20]</a> I'm fortunate to be officially supervised by Prof. Kangwook Lee</li>
+          </ul>
+        </div>
+        <br>
+
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding-left:2.5%;padding-bottom:0.5%;width:100%;vertical-align:middle">
+              <h2>Research</h2>
+              <p>
+                I'm currently interested in two questions: (1) how to make the adaptation of large pretrained models efficient and effective, and (2) how to use machine learning to help address medical problems. 
+                Research will be more meaningful if it helps society. 
+              </p>
+            </td>
+          </tr>
+        </table>
+        
+
+        <h3 style="padding-left:2.5%;padding-bottom:0.5%;width:100%;vertical-align:bottom">Preprints</h3>
+        <ol>
+        {% for post in site.posts %}
+          {% for cat in post.categories %} 
+            {% if cat == 'preprint' %}
+              <li style="padding-left:2.5%;padding-bottom:0.5%;width:75%;vertical-align:bottom">
+                <h3 style="color:navy;">{{post.title}}</h3>
+                <br>
+                {{post.authors}}
+                <br>
+                <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}. 
+                {% if post.arxiv %}
+                <a href="{{post.arxiv}}">pdf</a>
+                {% endif %}
+                {% if post.code %}
+                / <a href="{{post.code}}">code</a> 
+                {% endif %}
+                {% if post.summary %}
+                  <details>
+                    <summary>Summary</summary>
+                    <p>{{post.summary}}</p>
+                  </details>
+                {% endif %}
+              </li>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+        </ol>
+        <br>
+        
+
+        <h3 style="padding-left:2.5%;padding-bottom:0.5%;width:100%;vertical-align:bottom">Machine Learning / AI</h3>
+        <ol>
+        {% for post in site.posts %}
+        {% for cat in post.categories %}
+          {% if cat == 'ml' %}
+            <li style="padding-left:2.5%;padding-bottom:0.5%;width:75%;vertical-align:bottom">
+              <h3 style="color:navy;">{{post.title}}</h3>
+              <br>
+              {{post.authors}}
+              <br>
+              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}. 
+              {% if post.arxiv %}
+                <a href="{{post.arxiv}}">pdf</a>
+              {% endif %}
+              {% if post.code %}
+                / <a href="{{post.code}}">code</a>
+              {% endif %}
+            </li>
+          {% endif %}
+        {% endfor %}
+        {% endfor %}
+        </ol>
+        <br>
+
+        <h3 style="padding-left:2.5%;padding-bottom:0.5%;width:100%;vertical-align:bottom">Applied Machine Learning in Healthcare and Wearable Systems</h3>
+        <ol>
+        {% for post in site.posts %}
+          {% for cat in post.categories %}
+            {% if cat == 'applied' %}
+              <li style="padding-left:2.5%;padding-bottom:0.5%;width:75%;vertical-align:bottom">
+                <h3 style="color:navy;">{{post.title}}</h3>
+                <br>
+                  {{post.authors}}
+                <br>
+                <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}. 
+                {% if post.arxiv %}
+                  <a href="{{post.arxiv}}">pdf</a>
+                {% endif %}
+                {% if post.code %}
+                  / <a href="{{post.code}}">code</a>
+                {% endif %}
+              </li>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+        </ol>
+        <br>
+
+        <h3 style="padding-left:2.5%;padding-bottom:0.5%;width:100%;vertical-align:bottom">Patents</h3>
+        <ol>
+        {% for post in site.posts %}
+        {% for cat in post.categories %}
+        {% if cat == 'patent' %}
+          <li style="padding-left:2.5%;padding-bottom:0.5%;width:75%;vertical-align:bottom">
+            <h3 style="color:navy;">{{post.title}}</h3>
+            <br>
+            {{post.authors}}
+            <br>
+            <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}. 
+            {% if post.link %}
+            <a href="{{post.link}}">link</a>
+            {% endif %}
+            {% if post.code %}
+            / <a href="{{post.code}}">pdf</a>
+            {% endif %}
+            {% if post.summary %}
+            <br>
+            <details>
+              <summary>Summary</summary>
+              <p>{{post.summary}}</p>
+            </details>
+            {% endif %}
+          </li>
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+        </ol>
+
+        <br>
+        <br>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:center;font-size:small;">
+                Webpage credits: <a style="font-size:small;" href="https://jonbarron.info">html-barron</a>, <a style="font-size:small;" href="https://leonidk.com/">jekyll-Keselman</a>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>

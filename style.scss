@@ -13,7 +13,8 @@
 /* BASE RULES */
 /**************/
 a {
-  color: #1772d0;
+  // color: #1772d0;
+  color: #D25439;
   text-decoration: none;
 }
 
@@ -30,7 +31,8 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  // font-size: 14px;
+  font-size: 1rem;
   font-display: auto;
 }
 
@@ -42,7 +44,8 @@ strong {
 
 h2 {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  // font-size: 22px;
+  font-size: 2rem;
   font-display: auto;
   font-weight: normal;
   padding: 0px;
@@ -52,11 +55,13 @@ h2 {
 
 h3 {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 700;
+  // font-size: 14px;
+  font-size: 1.3rem;
+  font-weight: 500;
   font-display: auto;
-  padding: 0px;
-  margin: 0px;
+  // font-weight: normal;
+  // padding: 0px;
+  // margin-bottom: 100px;
   display:inline; 
 }
 
@@ -136,3 +141,18 @@ span.highlight {
   animation-timing-function: cubic-bezier(1, 0, .5, 0);
 }
 .vmove:hover { animation-play-state: paused; }
+
+
+.info-list {
+  padding-bottom: 3px;
+  border-bottom: 1px solid #aaa;
+}
+
+.badge {
+  background-color: #D25439;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 2px;
+  font-size: 1rem;
+}

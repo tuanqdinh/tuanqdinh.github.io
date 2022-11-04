@@ -6,8 +6,9 @@ image: /images/graphgan.png
 categories: ml
 author: "Tuan Dinh"
 # subtitle: "To Appear"
-venue: "TPAMI"
+venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
 # slides: /pdfs/
-authors: "<strong>Tuan Dinh</strong>, Yunyang Xiong, Zhichun Huang, Tien Vo, Akshay Mishra, Won Hwa Kim, Sathya Ravi, Vikas Singh"
+badge: "TPAMI"
+authors: "<ins><strong>Tuan Dinh</strong></ins>, Yunyang Xiong, Zhichun Huang, Tien Vo, Akshay Mishra, Won Hwa Kim, Sathya Ravi, Vikas Singh"
 ---
 <!-- [Presented Slides](){:target="_blank"} -->

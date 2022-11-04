@@ -8,6 +8,7 @@ author: "Tuan Dinh"
 # subtitle: "To Appear"
 venue: "IEEE Transactions on Mobile Computing"
 # slides: /pdfs/
-authors: "Nhat Pham, <strong>Tuan Dinh</strong>, Zohreh Raghebi, Taeho Kim, Nam Bui, Phuc Nguyen, Hoang Truong, Tuan Nguyen, Farnoush Banaei-Kashani, Ann Halbower, Thang Dinh, and Tam Vu"
+badge: "IEEE TMC"
+authors: "Nhat Pham, <ins><strong>Tuan Dinh</strong></ins>, Zohreh Raghebi, Taeho Kim, Nam Bui, Phuc Nguyen, Hoang Truong, Tuan Nguyen, Farnoush Banaei-Kashani, Ann Halbower, Thang Dinh, and Tam Vu"
 ---
 <!-- [Presented Slides](){:target="_blank"} -->

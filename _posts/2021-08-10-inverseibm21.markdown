@@ -6,7 +6,9 @@ image: /images/deepcg.png
 categories: patent
 venue: US 11087525
 link: https://patentimages.storage.googleapis.com/d7/78/35/0e95cf41ccaaa5/US11087525.pdf
-authors: "Thanh Lam Hoang, Albert Akhriev, Ngoc Minh Tran, Bradley Eck, <strong>Tuan Dinh</strong>"
+badge: "US Patent"
+authors: "Thanh Lam Hoang, Albert Akhriev, Ngoc Minh Tran, Bradley Eck, <ins><strong>Tuan Dinh</strong></ins>"
 ---
 <!-- [Presented Slides](){:target="_blank"} -->
+
 

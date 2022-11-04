@@ -6,7 +6,8 @@ image: /images/oxford.png
 categories: applied
 author: "Tuan Dinh"
 # subtitle: "Oral"
+badge: "Oxford"
 venue: "The Oxford Journal of Intelligent Decision and Data Science"
-authors: "Tru Hoang Cao, Anh Duy Nguyen, <strong>Tuan Dinh</strong>, Quang Chan Luong, Hai Thanh Diep."
+authors: "Tru Hoang Cao, Anh Duy Nguyen, <ins><strong>Tuan Dinh</strong></ins>, Quang Chan Luong, Hai Thanh Diep."
 ---
 

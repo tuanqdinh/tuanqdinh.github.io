@@ -24,7 +24,7 @@
       <td style="padding:0px">
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;">
           <tr style="padding:0px">
-            <td style="padding:2%;width:60%;vertical-align:middle">
+            <td style="padding:2.5%;width:60%;vertical-align:middle">
               <h1>
                 Tuan Dinh <br>
               </h1>
@@ -44,10 +44,10 @@
                 </blockquote>
 
               <p >I am a Ph.D. student in computer science at the University of Wisconsin-Madison, with minor in statistics. <br/>
-                I'm fortunate to be advised by with Prof. <a href="https://kangwooklee.com/">Kangwook Lee</a>, with the focus on efficient and robust deep learning. <br>
+                I'm currently advised by with Prof. <a href="https://kangwooklee.com/">Kangwook Lee</a>. 
                 Previously, I have worked with Prof. <a href="https://www.biostat.wisc.edu/~vsingh/">Vikas Singh</a> in learning generative models for graph-structured data and medical images.
                 Prior to graduate studies, I have worked with Prof. <a href="https://sph.uth.edu/faculty/index.htm#KAxVpHwjEQAbZXgfZvxCQA==">Tru Cao</a> in building AI systems for disease forecast and healthcare. <br><br>
-                <span style="color:#D25439;">I am on the job market for the full-time research positions.</span>
+                <span style="color:#D25439;">I am currently on the job market for the full-time research positions.</span>
               </p>
             </td>
             <td style="padding-left:2.5%;padding-bottom:0.5%;width:40%;max-width:40%">
@@ -56,8 +56,22 @@
           </tr>
         </table>
 
+        <!-- <h3 style="padding-left:2.5%;padding-bottom:0.5%;width:100%;vertical-align:middle" >Updates</h3>
+        <div class="vwrap"><div class="vmove">
+          <div class="vitem"></div>
+          <div class="vitem">[Sep 22] LIFT is accepted to NeurIPS 2022. Thank you all -- our great team to make this happen.</div>
+          <div class="vitem"></div>
+          <div class="vitem"></div>
+          <div class="vitem"></div>
+          <div class="vitem"></div>
+          <div class="vitem"></div>
+        </div></div> -->
+
+        <!-- <div style="width:150px;height:150px;line-height:3em;overflow:scroll;padding:5px;">
+          This 'div' element uses 'overflow:scroll' to create scrollbars. 
+          </div> -->
         
-        <h3 style="padding-top:0%; padding-left:2.5%;padding-bottom:0%;width:100%;vertical-align:middle;" >Updates</h3>
+        <h3 style="padding-left:2.5%;padding-bottom:0%;width:100%;vertical-align:middle;" >Updates</h3>
         <div style="padding-left:2.5%;padding-bottom:0%;padding-top:0%;width:100%;vertical-align:middle;height:100px;line-height:2em;overflow:scroll;">
           <ul style="list-style-type:none">
             <li><a href="#">[Oct 22]</a> Happy to receive NeurIPS Scholar Award</li>
@@ -82,36 +96,34 @@
           <tr>
             <td style="padding-left:2.5%;padding-bottom:0.5%;width:100%;vertical-align:middle">
               <p>
-                I'm currently interested in two questions: (1) how to make the adaptation of large pretrained models efficient and effective, and (2) how to use machine learning to help address medical problems. <br>
-                I believe that our research and science will be more meaningful if it can bring more values to the society. 
+                I'm currently interested in two questions: (1) how to make the adaptation of large pretrained models efficient and effective, and (2) how to use machine learning to help address medical problems. 
+                Research will be more meaningful if it helps society. 
               </p>
             </td>
           </tr>
         </table>
         
 
-        {% assign names = "ml, applied, patent" | split: ", " %}
+        {% assign names = "preprint, ml, applied" | split: ", " %}
         {% for name in names %}
           {% if name == 'preprint' %}
             {% assign area = 'Preprints' %}
           {% elsif name == 'ml' %}
-            {% assign area = 'Efficient Deep Learning' %}
-          {% elsif name == 'applied' %}
-            {% assign area = 'Applied Machine Learning in Healthcare and Wearable Systems' %}
+            {% assign area = 'Machine Learning / AI' %}
           {% else %}
-            {% assign area = 'Patents' %}
+            {% assign area = 'Applied Machine Learning in Healthcare and Wearable Systems' %}
           {% endif %}
-          <h3 style="padding-left:2.5%;width:100%;vertical-align:center">{{area}}</h3>
-          <table style="padding-top:1%;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <h3 class="info-list" style="padding-left:2.5%;padding-bottom:0.5%;width:100%;vertical-align:bottom">{{area}}</h3>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             {% for post in site.posts %}
               {% for cat in post.categories %} 
                 {% if cat == name %}
-                  <tr style="padding-top:1%">
-                    <td style="padding:2.5%;padding-top:2%; width:14%;vertical-align:top;">
-                      <abbr class="badge" style="font-size: 0.7rem">{{post.badge}}</abbr>
+                  <tr style="padding:0px">
+                    <td style="padding:2.5%;width:10%;vertical-align:top">
+                      <abbr class="badge">EMNLP</abbr>
                     </td>
-                    <td style="padding-top:1.5%;padding-left:1%;padding-bottom:0.5%;width:90%;max-width:86%">
-                      <a href='#' style="color:#D25439;">{{post.title}}</a>
+                    <td style="padding-left:3%;padding-bottom:0.5%;width:90%;max-width:90%">
+                      <h3 style="color:#D25439;">{{post.title}}</h3>
                       <br>
                       {{post.authors}}
                       <br>
@@ -124,8 +136,8 @@
                       {% endif %}
                       {% if post.summary %}
                         <details>
-                          <summary style="color:#D25439;">Key Ideas</summary>
-                          <span style="color:#3969d2;">{{post.summary}}</span>
+                          <summary>Summary</summary>
+                          <p>{{post.summary}}</p>
                         </details>
                       {% endif %}
                     </td>
@@ -136,6 +148,39 @@
           </table>
           <br>
         {% endfor %}
+
+        <div class="info-list">
+          <h2>Patents</h2>
+        </div>
+        <!-- <h3 style="padding-left:2.5%;padding-bottom:0.5%;width:100%;vertical-align:bottom">Patents</h3> -->
+        <ol>
+        {% for post in site.posts %}
+        {% for cat in post.categories %}
+        {% if cat == 'patent' %}
+          <li style="padding-left:2.5%;padding-bottom:0.5%;width:75%;vertical-align:bottom">
+            <h3 style="color:#D25439;">{{post.title}}</h3>
+            <br>
+            {{post.authors}}
+            <br>
+            <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}. 
+            {% if post.link %}
+            <a href="{{post.link}}">link</a>
+            {% endif %}
+            {% if post.code %}
+            / <a href="{{post.code}}">pdf</a>
+            {% endif %}
+            {% if post.summary %}
+            <br>
+            <details>
+              <summary>Summary</summary>
+              <p>{{post.summary}}</p>
+            </details>
+            {% endif %}
+          </li>
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+        </ol>
 
         <br>
         <br>

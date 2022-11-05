@@ -6,7 +6,7 @@ image: /images/codedinvnet.png
 categories: ml
 author: "Tuan Dinh, Yuchen Zeng, Ruisu Zhang, Ziqian Lin, Michael Gira, Shashank Rajput, Jy-yong Sohn, Dimitris Papailiopoulos, Kangwook Lee"
 # subtitle: "submitted"
-venue: "In Proceedings of the 35th Advances in Neural Information Processing Systems Conference"
+venue: "In Proceedings of the 35th Advances in Neural Information Processing Systems"
 arxiv: "https://arxiv.org/abs/2206.06565"
 code: "https://github.com/UW-Madison-Lee-Lab/LanguageInterfacedFineTuning"
 summary: "To leverage large pretrained language models for learning non-language tasks, e.g., tabular data classification, we propose the use of natural language interface to convert non-language data into the format of textual data used in language models. Our method, LIFT, is shown to work pretty well on a suite of classification and regression tasks, include image classification."

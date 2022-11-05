@@ -8,5 +8,5 @@ venue: "In Proceedings of the 2022 MobiCom (the International Conference on Mobi
 arxiv: "https://dl.acm.org/doi/10.1145/3495243.3560533"
 # slides: /pdfs/
 badge: "MobiCom"
-authors: "Nhat Pham, Hong Jia, Minh Tran,  <strong>Tuan Dinh</strong>, Nam Bui, Young Kwon, Dong Ma, Phuc Nguyen, Cecilia Mascolo, and Tam Vu"
+authors: "Nhat Pham, Hong Jia, Minh Tran, <ins><strong>Tuan Dinh</strong></ins>, Nam Bui, Young Kwon, Dong Ma, Phuc Nguyen, Cecilia Mascolo, and Tam Vu"
 ---

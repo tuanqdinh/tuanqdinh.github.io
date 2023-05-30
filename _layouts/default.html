@@ -28,7 +28,7 @@
               <h1>
                 Tuan Dinh <br>
               </h1>
-              <p style="text-align:center;">tuan.dinh@wisc.edu</p>
+              <p style="text-align:center;">tuan.dinh@ucsf.edu; tuan.dinh@wisc.edu</p>
               <p style="text-align:center">
                 <a href="https://github.com/tuan-dinh">GitHub</a> &nbsp;/&nbsp;
                 <a href="https://twitter.com/tuanqdinh">Twitter</a>
@@ -42,11 +42,9 @@
                     &mdash; <cite>The Count of Monte Cristo</cite>  </figcaption>
                   </p>
                 </blockquote>
-              <p style="text-align:justify;">I am a Ph.D. student in computer science at the University of Wisconsin-Madison, with minor in statistics. 
-                I'm fortunate to be advised by Prof. <a href="https://kangwooklee.com/">Kangwook Lee</a>, with the focus on efficient and robust deep learning.
-                Previously, I have worked with Prof. <a href="https://www.biostat.wisc.edu/~vsingh/">Vikas Singh</a> in learning generative models for graph-structured data and medical images.
+              <p style="text-align:justify;">I am a postdoc at UCSF, working with Prof. <a href="https://profiles.ucsf.edu/vasilis.ntranos"> Vasilis Ntranos </a> and <a href="https://mazetx.com/">MAZE</a> on Language Modeling of Proteins. Previously, I obtained my Ph.D. in computer science from the University of Wisconsin-Madison (with minor in statistics). I was fortunate to be advised by Prof. <a href="https://kangwooklee.com/">Kangwook Lee</a>, with the focus on efficient and robust deep learning. I have also spent my early years with Prof. <a href="https://www.biostat.wisc.edu/~vsingh/">Vikas Singh</a> in learning generative models for graph-structured data and medical images.
                 Prior to graduate studies, I have worked with Prof. <a href="https://sph.uth.edu/faculty/index.htm#KAxVpHwjEQAbZXgfZvxCQA==">Tru Cao</a> in building AI systems for disease forecast and healthcare. <br><br>
-                <span style="color:#D25439;">I am on the job market for the full-time research positions.</span>
+                <!-- <span style="color:#D25439;">I am on the job market for the full-time research positions.</span> -->
               </p>
             </td>
             <td style="padding-left:1.5%;padding-bottom:0%;width:35%;max-width:40%;margin-bottom:0%;">
@@ -79,12 +77,12 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding-left:2.5%;padding-bottom:0.5%;width:100%;vertical-align:middle">
-              <p>My research interest is Artificial Intelligence / Machine Learning, with my current focus being on two problems: </p>
-              <ol type="A">
+              <p>My research interest is Artificial Intelligence / Machine Learning, with my current focus being on large language models and modular networks. On the applied site, I am working towards adapting language models for proteins and computational biology. 
+              <!-- <ol type="A">
                 <li> Efficient adaptation of large pretrained models</li>
                 <li> Effective utilization of deep learning models in medical problems </li>
-              </ol>
-              <p>I believe that our research can become more meaningful if it can bring more (direct) values to help the living.</p>
+              </ol> -->
+              <p>I believe that research can become more meaningful with the (direct) contribution to help the living.</p>
             </td>
           </tr>
         </table>
@@ -95,9 +93,9 @@
           {% if name == 'preprint' %}
             {% assign area = 'Preprints' %}
           {% elsif name == 'ml' %}
-            {% assign area = 'Efficient and Modular Deep Learning' %}
+            {% assign area = 'Modular Deep Learning' %}
           {% elsif name == 'applied' %}
-            {% assign area = 'Machine Learning for Medical and Health Systems' %}
+            {% assign area = 'Machine Learning for Health' %}
           {% else %}
             {% assign area = 'Patents' %}
           {% endif %}

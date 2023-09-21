@@ -1,13 +1,14 @@
 ---
 layout: post
-title:  "Completing Code with Code Language Models"
+title:  "Large Language Models of Code Fail at Completing Code with Potential Bugs"
 date:   2022-10-14 22:20:59 +00:00
 image: /images/codedinvnet.png
 categories: ml
 # subtitle: "submitted"
-venue: "In Proceedings of the Machine Learning for Code Workshop at Amazon Machine Learning Conference (ML for code)"
+venue: "NeurIPS 2023 (To appear) <br> Amazon Machine Learning Conference 2022 (ML for code)"
+# In Proceedings of the Machine Learning for Code Workshop at Amazon Machine Learning Conference
 arxiv: "https://arxiv.org/pdf/2306.03438.pdf"
-badge: "preprint"
+badge: "NeurIPS"
 authors: "<ins><strong>Tuan Dinh</strong></ins>, Jinman Zhao, Samson Tan, Renato Negrinho, Sheng Zha, George Karypis"
 ---
 <!-- [Presented Slides](){:target="_blank"} -->

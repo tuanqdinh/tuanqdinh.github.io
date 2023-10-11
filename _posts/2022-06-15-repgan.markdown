@@ -6,7 +6,7 @@ image: /images/logo.png #/images/repgan.png
 categories: ml
 author: "Tuan Dinh"
 # subtitle: "To Appear"
-venue: "In Proceedings of the 1st Workshop on Updatable Machine Learning at International Conference on Machine Learning"
+venue: "International Conference on Machine Learning (Updatable ML)"
 arxiv: https://arxiv.org/abs/2201.02692
 summary: "We aim to repurpose pretrained unconditional generative models to generate conditional samples. To do so, our method InRep+ utilizes the input reprogramming framework where we only modify the latent (noise) distribution and leave the pretrained generator unchanged. Our method shows significant computing savings compared to fine-tuning or full CGANs training, with comparable or even better generation performance when the amount of labeled data is small."
 badge: "ICML"

@@ -34,10 +34,10 @@
 - title:  "Forecasting Dengue Incidences: Statistical and Dynamic Models"
   date:   2018-07-21 22:21:59 +00:00
   image: /images/oxford.png
-  topic: Disease
+  topic: Epidemiology
   author: "Tuan Dinh"
   # subtitle: "Oral"
-  badge: "Oxford'18"
+  badge: "Oxford Journal'18"
   link: "https://d-nb.info/1198207159/34"
   venue: "The Oxford Journal of Intelligent Decision and Data Science"
   authors: "Tru Hoang Cao, Anh Duy Nguyen, <ins><strong>Tuan Dinh</strong></ins>, Quang Chan Luong, Hai Thanh Diep."
@@ -56,11 +56,11 @@
 - title:  "Forecasting the Magnitude of Dengue in Southern Vietnam"
   date: 2016-07-21 22:21:59 +00:00
   image: /images/dengue.png
-  topic: Disease
+  topic: Epidemiology
   author: "Tuan Dinh"
   subtitle: "Oral"
   venue: "In Proceedings of the 2016 Asian Conference on Intelligent Information and Database Systems (Oral Presentation)"
-  badge: "ACIIDS'16"
+  badge: "ACIIDS'16 (Oral)"
   link: "https://link.springer.com/chapter/10.1007/978-3-662-49381-6_53"
   subtitle: "Spatial network for dengue forecast"
   authors: "<ins><strong>Tuan Dinh</strong></ins>, Le, H. V., Cao, T. H., Diep, H. T., Luong, Q. C."

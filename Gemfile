@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem "minima"
+gem "jekyll", "~> 4.3"
+gem "webrick", "~> 1.7"
 # gem "jekyll", "4.1.1"
 # gem "thin", ">=1.8.0"
 # gem "rack", ">= 2.2.3"
@@ -8,6 +11,4 @@ source 'https://rubygems.org'
 gem 'jekyll-scholar'
 # gem "webrick", "~> 1.7"
 
-gem "minima"
-gem "jekyll", "~> 4.3"
-gem "webrick", "~> 1.7"
+

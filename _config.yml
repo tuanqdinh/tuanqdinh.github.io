@@ -66,36 +66,10 @@ kramdown:
 
 plugins: ['jekyll/scholar']
 
-scholar:
-
-  last_name: Doe
-  first_name: [John]
-
-  style: citesty
-  locale: en
-
-  source: /assets/
-  bibliography: ref.bib
-  bibliography_template: bibtemplate
-  sort_by: year, month
-  order: descending
-
-  replace_strings: true
-  join_strings: true
-
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
-
-  query: "@*"
-
-  bibliography_list_attributes:
-    reversed: "reversed"
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - update_boostrap.sh
-  - switch_theme.sh
-  - tags
-  - Rakefile
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - update_boostrap.sh
+#   - switch_theme.sh
+#   - tags
+#   - Rakefile

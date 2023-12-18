@@ -8,7 +8,7 @@ permalink: /
 <br>
 <br>
 
-#### Hello World!
+#### Hello, World!
 
 <!-- <blockquote>
     Learning does not make one learned: there are those who have knowledge and those who have understanding. 

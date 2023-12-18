@@ -18,8 +18,8 @@
         <td>{% if article.link %} <a href="{{ article.link }}">{{ article.badge }}</a>{% else %} {{ article.badge }} {% endif %} </td>
         <td>{{ article.topic}}</td>
         <td>{{ article.title}}</td>
-        <td>{% if article.link %} <a href="{{ article.summary }}">summary</a>{% endif %}</td>
-        <td>{% if article.link %} <a href="{{ article.code }}">code</a>{% endif %}</td>
+        <td>{% if article.summary %} <a href="{{ article.summary }}">summary</a>{% endif %}</td>
+        <td>{% if article.code %} <a href="{{ article.code }}">code</a>{% endif %}</td>
       </tr>
       {% endfor %}
     </table>

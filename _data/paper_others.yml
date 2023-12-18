@@ -1,0 +1,66 @@
+- title: "PROS: an Efficient Pattern-Driven Compressive Sensing Framework for Low-Power Biopotentialbased Wearables with On-chip Intelligence"
+  date:   2022-08-18 22:20:59 +00:00
+  image: /images/wake.png
+  topic: Healthcare
+  venue: "In Proceedings of the 2022 International Conference on Mobile Computing And Networking (Mobicom)"
+  link: "https://dl.acm.org/doi/10.1145/3495243.3560533"
+  # slides: /pdfs/
+  badge: "MobiCom'22"
+  authors: "Nhat Pham, Hong Jia, Minh Tran, <ins><strong>Tuan Dinh</strong></ins>, Nam Bui, Young Kwon, Dong Ma, Phuc Nguyen, Cecilia Mascolo, and Tam Vu"
+
+- title:  "WAKE: A Behind-the-ear Wearable System for Microsleep Detection"
+  date:   2020-07-18 22:20:59 +00:00
+  image: /images/wake.png
+  topic: Healthcare
+  author: "Tuan Dinh"
+  venue: "In Proceedings of the 2020 MobiSys (International Conference on Mobile Systems, Applications, and Services)"
+  # slides: /pdfs/
+  badge: "MobiSys'21"
+  link: "https://dl.acm.org/doi/10.1145/3386901.3389032"
+  authors: "Nhat Pham, <ins><strong>Tuan Dinh</strong></ins>, Zohreh Raghebi, Taeho Kim, Nam Bui, Phuc Nguyen, Hoang Truong, Farnoush Banaei-Kashani, Ann Halbower, Thang Dinh, and Tam Vu"
+
+- title:  "Detection of Microsleep Events with a Behind-the-ear Wearable System"
+  date:   2021-04-18 22:20:59 +00:00
+  image: /images/tmc.png
+  topic: Healthcare
+  author: "Tuan Dinh"
+  # subtitle: "To Appear"
+  venue: "IEEE Transactions on Mobile Computing"
+  # slides: /pdfs/
+  link: "https://ieeexplore.ieee.org/document/9462324"
+  badge: "IEEE TMC'21"
+  authors: "Nhat Pham, <ins><strong>Tuan Dinh</strong></ins>, Zohreh Raghebi, Taeho Kim, Nam Bui, Phuc Nguyen, Hoang Truong, Tuan Nguyen, Farnoush Banaei-Kashani, Ann Halbower, Thang Dinh, and Tam Vu"
+
+- title:  "Forecasting Dengue Incidences: Statistical and Dynamic Models"
+  date:   2018-07-21 22:21:59 +00:00
+  image: /images/oxford.png
+  topic: Disease
+  author: "Tuan Dinh"
+  # subtitle: "Oral"
+  badge: "Oxford'18"
+  link: "https://d-nb.info/1198207159/34"
+  venue: "The Oxford Journal of Intelligent Decision and Data Science"
+  authors: "Tru Hoang Cao, Anh Duy Nguyen, <ins><strong>Tuan Dinh</strong></ins>, Quang Chan Luong, Hai Thanh Diep."
+
+- title:  "Graph Imputation techniques for estimating amyloid positivity from longitudinal cognitive and MRI measurements for efficient secondary prevention trials"
+  date:   2017-09-12 22:20:59 +00:00
+  image: /images/logo.png
+  topic: Medical Imaging
+  author: "Tuan Dinh"
+  # subtitle: ""
+  venue: "In Proceedings of 10th edition of Clinical Trials on Alzheimer’s Disease (CtaD2017)"
+  # slides: /pdfs/
+  badge: CtaD'17
+  authors: "<ins><strong>Tuan Dinh</strong></ins>, Sathya Ravi, WonHwa Kim, Nagesh Adluru, Rebecca Koscik, Cynthia Carlsson, Sterling C. Johnson, Vikas Singh"
+
+- title:  "Forecasting the Magnitude of Dengue in Southern Vietnam"
+  date: 2016-07-21 22:21:59 +00:00
+  image: /images/dengue.png
+  topic: Disease
+  author: "Tuan Dinh"
+  subtitle: "Oral"
+  venue: "In Proceedings of the 2016 Asian Conference on Intelligent Information and Database Systems (Oral Presentation)"
+  badge: "ACIIDS'16"
+  link: "https://link.springer.com/chapter/10.1007/978-3-662-49381-6_53"
+  subtitle: "Spatial network for dengue forecast"
+  authors: "<ins><strong>Tuan Dinh</strong></ins>, Le, H. V., Cao, T. H., Diep, H. T., Luong, Q. C."

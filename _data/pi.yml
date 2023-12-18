@@ -1,0 +1,23 @@
+# - name: Dr. Tuan Q. Dinh
+- photo: circle_ava.png
+  info: Postdoc Scholar, University of California, San Francisco
+  email: tuan.dinh@ucsf.edu
+  github: https://github.com/tuanqdinh
+  twitter: https://twitter.com/tuanqdinh
+  # semantic: https://www.semanticscholar.org/author/Tuan-Dinh/2067506606
+  scholar: https://scholar.google.com/citations?user=pVsYxE4AAAAJ&hl=en
+  # cv: cv/cv.pdf
+  # Change the number below to the number of "educations" you have (up to 6)
+  # number_educ: 0
+  # education1: "(1942) Ph.D. Physics, Princeton University"
+  # education2: "(1939) B.S. Physics, Massachusetts Institute of Technology"
+  # education3: 
+  # education4: 
+  # education5: 
+  # education6: 
+  # education1short: (1942) Ph.D. Physics, Princeton
+  # education2short: (1939) B.S. Physics, MIT
+  # education3short: 
+  # education4short: 
+  # education5short: 
+  # education6short: 

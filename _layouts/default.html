@@ -1,165 +1,24 @@
-<!DOCTYPE HTML>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
-<head>
-  <title>{{ site.name }}</title>
+  {% include head.html %}
 
-  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <body>
 
-  <meta name="author" content="{{ site.name }}" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include header.html %}
 
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-  <link rel="shortcut icon" type="image/x-icon" href="images/bucky.png" />
+    <!-- <div class="container-fluid">
+     -->
+     <div class="container">
+      <div class="row">
+        {{ content }}
+      </div>
+    </div>
 
-</head>
+    {% include selected_publications.html %}
 
+    {% include footer.html %}
 
-
-<body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;">
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;padding-bottom:0%;margin-bottom:0%">
-          <tr style="padding:0px">
-            <td style="padding:2%;width:65%;vertical-align:middle">
-              <h1>
-                Tuan Dinh <br>
-              </h1>
-              <p style="text-align:center;">tuan.dinh@ucsf.edu</p>
-              <p style="text-align:center">
-                <a href="https://github.com/tuan-dinh">GitHub</a> &nbsp;/&nbsp;
-                <a href="https://twitter.com/tuanqdinh">Twitter</a>
-              </p>
-                <blockquote>
-                  <p style="font-style: italic;text-align:justify;">
-                    Learning does not make one learned: there are those who have knowledge and those who have understanding. 
-                  The first requires memory and the second philosophy.
-                  </p>
-                  <p style="text-align:right; padding-top:0;margin-top:0;">
-                    &mdash; <cite>The Count of Monte Cristo</cite>  </figcaption>
-                  </p>
-                </blockquote>
-              <p style="text-align:justify;">I am a postdoc at UCSF, working with Prof. <a href="https://profiles.ucsf.edu/vasilis.ntranos"> Vasilis Ntranos </a> and <a href="https://mazetx.com/">MAZE</a> on Language Modeling of Proteins. I obtained my Ph.D. in Computer Science (minor in Statistics) with Prof. <a href="https://kangwooklee.com/">Kangwook Lee</a>, developing modular neural networks using pre-trained models. I have also spent my earlier years with Prof. <a href="https://www.biostat.wisc.edu/~vsingh/">Vikas Singh</a> to study generative models for graph-structured data and with Prof. <a href="https://sph.uth.edu/faculty/index.htm#KAxVpHwjEQAbZXgfZvxCQA==">Tru Cao</a> in building AI systems for disease forecast. <br><br>
-                <!-- <span style="color:#D25439;">I am on the job market for the full-time research positions.</span> -->
-              </p>
-            </td>
-            <td style="padding-left:1.5%;padding-bottom:0%;width:35%;max-width:40%;margin-bottom:0%;">
-              <img style="width:85%;max-width:85%" alt="profile photo" src="images/circle_ava.png">
-            </td>
-          </tr>
-        </table>
-  
-        <!-- <div style="padding-left:1%;padding-bottom:0%;padding-top:0%;width:100%;vertical-align:top;height:100px;line-height:1.7em;overflow:scroll;margin-top:0%"></div> -->
-          <div style="padding-left:2%;height:100px;line-height:1.7em;overflow:scroll;margin-top:0%">
-            <ul style="list-style-type:none;padding-left:1.5%">
-              <li><a href="#">[Sep 2023]</a> BugComp is accepted to NeurIPS 2023. Thank you all collaborators from the AWS research team</li>
-              <li><a href="#">[Oct 2022]</a> Happy to receive the NeurIPS Scholar Award</li>
-              <li><a href="#">[Oct 2022]</a> BugComp is accepted to AMLC (ML for Code)</li>
-              <li><a href="#">[Oct 2022]</a> WALIP is accepted to the Findings of EMNLP 2022</li>
-              <li><a href="#">[Sep 2022]</a> LIFT is accepted to NeurIPS 2022. Thank you all -- our great team to make this happen!</li>
-              <li><a href="#">[Aug 2022]</a> PROS is accepted to MobiCom 2022. Thanks great collaborators from Oxford and CU-Boulder.</li>
-              <li><a href="#">[Jun 2022]</a> Starts internship at AWS AI Research and Education</li>
-              <li><a href="#">[Jun 2022]</a> Our LIFT paper is available on Arxiv</li>
-              <li><a href="#">[Jun 2022]</a> Our WALIP paper is available on Arxiv</li>
-              <li><a href="#">[May 2021]</a> CodedInvnet is accepted to ICML-21</li>
-              <li><a href="#">[Jul 2020]</a> I'm fortunate to be officially supervised by Prof. Kangwook Lee</li>
-            </ul>
-          </div>
-        <br>
-
-
-        <div class="info-list">
-          <h2>Research</h2>
-        </div>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding-left:2.5%;padding-bottom:0.5%;width:100%;vertical-align:middle">
-              <p>My research interest is Artificial Intelligence / Machine Learning, with my current focus being on large language models and modular deep learning. I am also working towards building and adapting language models for computational biology. 
-              <!-- I believe that research can become more meaningful with the (direct) contribution to help the living. -->
-              <!-- <ol type="A">
-                <li> Efficient adaptation of large pretrained models</li>
-                <li> Effective utilization of deep learning models in medical problems </li>
-              </ol> -->
-              <!-- <p>I believe that research can become more meaningful with the (direct) contribution to help the living.</p> -->
-            </td>
-          </tr>
-        </table>
-        
-
-        {% assign names = "ml, applied, patent" | split: ", " %}
-        {% for name in names %}
-          {% if name == 'preprint' %}
-            {% assign area = 'Preprints' %}
-          {% elsif name == 'ml' %}
-            {% assign area = 'Modular Deep Learning' %}
-          {% elsif name == 'applied' %}
-            {% assign area = 'Applied Machine Learning for Bio and Medical Systems' %}
-          {% else %}
-            {% assign area = 'Patents' %}
-          {% endif %}
-          {% if area == 'Patents' %}
-          <div class="info-list">
-            <h2>{{area}}</h2>
-          </div>
-          {% else %}
-          <div class="header" style="margin-left:2.5%;padding:0.5%">
-            <h3 style="padding-left:2.5%;width:100%;vertical-align:center">{{area}}</h3>
-          </div>
-          {% endif %}
-          <table style="padding-top:1%;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            {% for post in site.posts %}
-              {% for cat in post.categories %} 
-                {% if cat == name %}
-                  <tr style="padding-top:1%">
-                    <td style="padding:2.5%;padding-top:2%; width:14%;vertical-align:top;">
-                      <abbr class="badge" style="font-size: 0.7rem">{{post.badge}}</abbr>
-                    </td>
-                    <td style="padding-top:1.5%;padding-left:1%;padding-bottom:0.5%;width:90%;max-width:86%">
-                      <a href='#' style="color:#D25439;">{{post.title}}</a>
-                      <br>
-                      {{post.authors}}
-                      <br>
-                      <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}. 
-                      {% if post.arxiv %}
-                      <a href="{{post.arxiv}}">pdf</a>
-                      {% endif %}
-                      {% if post.code %}
-                      / <a href="{{post.code}}">code</a> 
-                      {% endif %}
-                      {% if post.summary %}
-                        <details>
-                          <summary style="color:#D25439;">Key Ideas</summary>
-                          <span style="color:#3969d2;">{{post.summary}}</span>
-                        </details>
-                      {% endif %}
-                    </td>
-                  </tr>
-                {% endif %}
-              {% endfor %}
-            {% endfor %}
-          </table>
-          <br>
-        {% endfor %}
-
-        <br>
-        <br>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:center;font-size:small;">
-                Webpage credits: <a style="font-size:small;" href="https://jonbarron.info">html-barron</a>, <a style="font-size:small;" href="https://leonidk.com/">jekyll-Keselman</a>
-              </p>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-</body>
+  </body>
 
 </html>
-

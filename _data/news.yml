@@ -1,0 +1,44 @@
+# - date: 1 January, 1941
+#   headline: "Example news here"
+
+# - date: 1 January, 194"0
+#   headline: "Example news here"
+
+- date: "09.23"
+  headline:  BugComp is accepted to NeurIPS 2023.
+
+- date: "05.23"
+  headline: Joined UCSF as a Postdoc Scholar!
+
+- date: "03.23"
+  headline: Defended Ph.D. Thanks Kangwook and everyone!
+
+- date: "10.22"
+  headline:  Happy to receive the NeurIPS Scholar Award
+
+- date: "10.22"
+  headline:  BugComp is accepted to AMLC (ML for Code)
+
+- date: "10.22"
+  headline:  WALIP is accepted to EMNLP 2022 (Findings)
+
+- date: "09.22"
+  headline:  LIFT is accepted to NeurIPS 2022. 
+
+- date: "08.22"
+  headline:  PROS is accepted to MobiCom 2022. 
+
+- date: "06.22"
+  headline: Starts internship at AWS AI Research and Education
+
+- date: "06.22"
+  headline: LIFT is available on Arxiv
+
+- date: "06.22"
+  headline: WALIP  is available on Arxiv
+
+- date: "05.21"
+  headline:  CodedInvnet is accepted to ICML-21
+
+- date: "04.20"
+  headline:  I'm fortunate to be supervised by Prof. Kangwook Lee

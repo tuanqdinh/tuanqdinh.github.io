@@ -1,0 +1,86 @@
+- title:  "Large Language Models of Code Fail at Completing Code with Potential Bugs"
+  date:   2022-10-14 22:20:59 +00:00
+  image: /images/codedinvnet.png
+  topic: LLM
+  # subtitle: "submitted"
+  venue: "NeurIPS 2023 (To appear) <br> Amazon Machine Learning Conference 2022 (ML for code)"
+  # In Proceedings of the Machine Learning for Code Workshop at Amazon Machine Learning Conference
+  link: "https://arxiv.org/pdf/2306.03438.pdf"
+  code: "https://github.com/amazon-science/buggy-code-completion"
+  badge: "NeurIPS'23"
+  summary: "https://www.amazon.science/publications/large-language-models-of-code-fail-at-completing-code-with-potential-bugs"
+  authors: "<ins><strong>Tuan Dinh</strong></ins>, Jinman Zhao, Samson Tan, Renato Negrinho, Sheng Zha, George Karypis"
+
+
+- title:  "Utilizing Language-Image Pretraining for Efficient and Robust Bilingual Word Alignment"
+  date:   2022-10-05 22:20:59 +00:00
+  image: /images/codedinvnet.png
+  topic: CLIP, Multi-modal
+  venue: "Empirical Methods in Natural Language Processing (EMNLP Findings)"
+  link: "https://arxiv.org/abs/2205.11616"
+  code: "https://github.com/UW-Madison-Lee-Lab/walip"
+  summary: "https://twitter.com/Kangwook_Lee/status/1529400868424261632"
+  badge: "EMNLP'22"
+  authors: "<ins><strong>Tuan Dinh</strong></ins>, Jy-yong Sohn, Shashank Rajput, Timothy Ossowski, Yifei Ming, Junjie Hu, Dimitris Papailiopoulos, Kangwook Lee"
+
+
+- title:  "LIFT: Language-Interfaced Fine-Tuning for Non-Language Machine Learning Tasks"
+  date:   2022-09-08 22:20:59 +00:00
+  image: /images/codedinvnet.png
+  topic: LLM
+  author: "Tuan Dinh, Yuchen Zeng, Ruisu Zhang, Ziqian Lin, Michael Gira, Shashank Rajput, Jy-yong Sohn, Dimitris Papailiopoulos, Kangwook Lee"
+  # subtitle: "submitted"
+  venue: "Advances in Neural Information Processing Systems (NeurIPS)"
+  link: "https://arxiv.org/abs/2206.06565"
+  code: "https://github.com/UW-Madison-Lee-Lab/LanguageInterfacedFineTuning"
+  summary: "https://twitter.com/Kangwook_Lee/status/1536789544820957184"
+  badge: "NeurIPS'22"
+  authors: "<ins><strong>Tuan Dinh*</strong></ins>, Yuchen Zeng*, Ruisu Zhang, Ziqian Lin, Michael Gira, Shashank Rajput, Jy-yong Sohn, Dimitris Papailiopoulos, Kangwook Lee"
+
+- title:  "Improved Input Reprogramming for GAN Conditioning"
+  date:   2022-05-28 22:20:59 +00:00
+  image: /images/logo.png #/images/repgan.png
+  topic: GAN
+  author: "Tuan Dinh"
+  # subtitle: "To Appear"
+  venue: "International Conference on Machine Learning (Updatable ML)"
+  link: https://arxiv.org/abs/2201.02692
+  code: https://github.com/UW-Madison-Lee-Lab/InRep
+  summary: "We aim to repurpose pretrained unconditional generative models to generate conditional samples. To do so, our method InRep+ utilizes the input reprogramming framework where we only modify the latent (noise) distribution and leave the pretrained generator unchanged. Our method shows significant computing savings compared to fine-tuning or full CGANs training, with comparable or even better generation performance when the amount of labeled data is small."
+  badge: "ICMLW'22"
+  authors: "<ins><strong>Tuan Dinh</strong></ins>, Daewon Seo, Zhixu Du, Liang Shang, Kangwook Lee"
+
+- title:  "Coded-InvNet for Resilient Prediction Serving Systems"
+  date:   2021-07-17 22:20:59 +00:00
+  image: /images/codedinvnet.png
+  topic: GAN, MLSys
+  author: "Tuan Dinh, Kangwook Lee"
+  # subtitle: "submitted"
+  venue: "International Conference on Machine Learning (Long Talk -- 3%)"
+  link: "https://arxiv.org/abs/2106.06445"
+  code: "https://github.com/UW-Madison-Lee-Lab/CodedInvNet"
+  summary: "We study how to improve the resilience of ML service system. Our method is based on the coded computation method where we encode inputs in such a way that we can simply and effectively reconstruct the failed outputs. To apply the idea for ML models, we propose Coded-InvNet framework with utilizing the invertibility of neural network and the image-to-image translation model. We show that our framework improves the resilience of MLSS, especially with the setting of large numbers of queries."
+  # slides: /pdfs/
+  badge: "ICML'21"
+  authors: "<ins><strong>Tuan Dinh</strong></ins>, Kangwook Lee"
+
+- title:  "Performing Group Difference Testing on Graph Structured Data from GANs: Analysis and Applications in Neuroimaging"
+  date:   2020-07-18 22:20:59 +00:00
+  image: /images/graphgan.png
+  topic: GAN, Medical Image
+  author: "Tuan Dinh"
+  # subtitle: "To Appear"
+  venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+  # slides: /pdfs/
+  badge: "TPAMI'20"
+  authors: "<ins><strong>Tuan Dinh</strong></ins>, Yunyang Xiong, Zhichun Huang, Tien Vo, Akshay Mishra, Won Hwa Kim, Sathya Ravi, Vikas Singh"
+
+- title:  "The Promise of Conditional Gradient Methods for Training Deep Models"
+  date:   2019-09-12 22:20:59 +00:00
+  image: /images/deepcg.png
+  topic: GAN, Optimization
+  author: "Sathya Ravi"
+  venue: "In Proceedings of the 2019 AAAI Conference on Artificial Intelligence (Oral Presentation)"
+  badge: "AAAI'20"
+  arxiv: "https://arxiv.org/abs/1803.06453"
+  authors: "Sathya Ravi, <ins><strong>Tuan Dinh</strong></ins>, Vishnu Lokhande, Vikas Singh"

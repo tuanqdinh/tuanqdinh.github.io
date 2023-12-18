@@ -1,0 +1,68 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+$baseurl: "{{ site.url }}{{ site.baseurl }}";
+
+// @import "variables";
+@import "bootstrap/bootstrap";
+// @import "syntax-highlighting";
+@import "bootstrap-4-jekyll/bootstrap-4-jekyll";
+// @import "bootstrap_customization";
+@import "bootstrap";
+@import "SHB_css";
+
+body {
+    // margin: 0;
+    // font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    // font-weight: 400;
+    // line-height: 1.5;
+    color: #303030;
+    // text-align: left;
+    background-color: #dee2e6;
+}
+
+.jumbotron {
+    background-color: #dee2e6;
+}
+
+// container table, th, td{
+//     border: 1px solid grey;
+//     border-collapse: collapse;
+//   }
+  
+// container thead, th, td {
+//     border: 1px solid grey;
+//     padding: 10px;
+//   }
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #9bbdb4;
+    text-align: center;
+    color: #ffffff;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.header {
+    text-align: center;
+    background: #D25439;
+    color: white;
+  }

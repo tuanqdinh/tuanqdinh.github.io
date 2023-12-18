@@ -34,6 +34,6 @@ Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
 
 <br>
 #### Research 
-<p style="text-align:justify;">My research interest are AI/ML and AI for Science. My current foci are language models and modular deep learning, with the applied research in computational biology.</p>
+<p style="text-align:justify;">My research interests are AI/ML and AI for Science. My current foci are language models and modular deep learning, with the applied research in computational biology.</p>
 
 <br>

@@ -46,10 +46,11 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
+// #9bbdb4
 .styled-table thead tr {
-    background-color: #9bbdb4;
+    background-color: #dee2e6;
     text-align: center;
-    color: #ffffff;
+    color: #303030;
 }
 
 .styled-table th,
@@ -62,7 +63,14 @@ body {
 }
 
 .header {
-    text-align: center;
-    background: #D25439;
-    color: white;
+    text-align: left;
+    background: #4b97a8de;
+    color: #fff;
   }
+
+.navbar {
+    border-bottom: #4b97a8de
+}
+.bg-dark {
+    background-color: #4b97a8de !important;
+}

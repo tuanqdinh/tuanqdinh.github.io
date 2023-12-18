@@ -73,6 +73,8 @@
   venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
   # slides: /pdfs/
   badge: "TPAMI'20"
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7867665/
+  code: https://github.com/yyxiongzju/GLapGAN
   authors: "<ins><strong>Tuan Dinh</strong></ins>, Yunyang Xiong, Zhichun Huang, Tien Vo, Akshay Mishra, Won Hwa Kim, Sathya Ravi, Vikas Singh"
 
 - title:  "The Promise of Conditional Gradient Methods for Training Deep Models"
@@ -83,4 +85,5 @@
   venue: "In Proceedings of the 2019 AAAI Conference on Artificial Intelligence (Oral Presentation)"
   badge: "AAAI'20 (Oral)"
   link: "https://arxiv.org/abs/1803.06453"
+  code: https://github.com/lokhande-vishnu/deepcg
   authors: "Sathya Ravi, <ins><strong>Tuan Dinh</strong></ins>, Vishnu Lokhande, Vikas Singh"

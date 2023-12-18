@@ -1,6 +1,6 @@
 default
 - head
-- style: asset/main.css
+- style: asset/main.css -> bootstrap.scss
 - footnote -- footnote.html
 
 contents:

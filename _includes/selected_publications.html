@@ -62,16 +62,12 @@
         <th>Link</th>
         <th>Topic</th>
         <th>Title</th>
-        <th>Summary</th>
-        <th>Github</th>
       </thead>
       {% for article in site.data.patents %}
       <tr>
         <td><a href="{{ article.link }}">{{ article.badge }}</a></td>
         <td>{{ article.topic}}</td>
         <td>{{ article.title}}</td>
-        <td>{% if article.summary %} <a href="{{ article.summary }}">summary</a>{% endif %}</td>
-        <td>{% if article.code %} <a href="{{ article.code }}">code</a>{% endif %}</td>
       </tr>
       {% endfor %}
     </table>

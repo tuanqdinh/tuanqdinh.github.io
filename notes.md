@@ -14,6 +14,6 @@ twitter....
 <br>
 
 
-Have to update gem.loc (delete -> run) for website to be updated
+Have to update gem.loc (delete -> run) for website
 
 use inspect -- id 

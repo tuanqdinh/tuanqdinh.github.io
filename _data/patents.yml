@@ -1,7 +1,7 @@
 - title:  "Unsupervised learning of three dimensional visual alphabet"
   date:   2021-08-10 22:20:59 +00:00
   image: /images/deepcg.png
-  topic: "AI Framework"
+  topic: "AI Framework, Inverse Graphics"
   badge: "US 11087525"
   link: https://patentimages.storage.googleapis.com/d7/78/35/0e95cf41ccaaa5/US11087525.pdf
   authors: "Thanh Lam Hoang, Albert Akhriev, Ngoc Minh Tran, Bradley Eck, <ins><strong>Tuan Dinh</strong></ins>"
@@ -9,7 +9,7 @@
 - title:  "Training System for Artificial Neural Networks Having a Global Weight Constrainer"
   date:   2020-05-14 22:20:59 +00:00
   image: /images/deepcg.png
-  topic: "AI Algorithm"
+  topic: "Algorithm, Training Framework"
   badge: "US 16186121"
   link: https://patentimages.storage.googleapis.com/ec/8d/2a/ffb20e257df4fd/US20200151570A1.pdf
   authors: "Sathya Ravi, <ins><strong>Tuan Dinh</strong></ins>, Vishnu Lokhande, Vikas Singh"

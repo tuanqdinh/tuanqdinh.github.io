@@ -3,25 +3,27 @@
   image: /images/codedinvnet.png
   topic: LLM
   # subtitle: "submitted"
-  venue: "NeurIPS 2023 (To appear) <br> Amazon Machine Learning Conference 2022 (ML for code)"
+  venue: "NeurIPS 2023 <br> Amazon Machine Learning Conference 2022 (ML for code)"
   # In Proceedings of the Machine Learning for Code Workshop at Amazon Machine Learning Conference
   link: "https://arxiv.org/pdf/2306.03438.pdf"
   code: "https://github.com/amazon-science/buggy-code-completion"
   badge: "NeurIPS'23"
   summary: "https://www.amazon.science/publications/large-language-models-of-code-fail-at-completing-code-with-potential-bugs"
   authors: "<ins><strong>Tuan Dinh</strong></ins>, Jinman Zhao, Samson Tan, Renato Negrinho, Sheng Zha, George Karypis"
+  tldr: "LLMs may fail drastically at completing functional code when potential bugs (aka anti-flow pattens) exist in the context."
 
 
 - title:  "Utilizing Language-Image Pretraining for Efficient and Robust Bilingual Word Alignment"
   date:   2022-10-05 22:20:59 +00:00
   image: /images/codedinvnet.png
-  topic: CLIP, Multi-modal
+  topic: Multimodal
   venue: "Empirical Methods in Natural Language Processing (EMNLP Findings)"
   link: "https://arxiv.org/abs/2205.11616"
   code: "https://github.com/UW-Madison-Lee-Lab/walip"
   summary: "https://twitter.com/Kangwook_Lee/status/1529400868424261632"
   badge: "EMNLP'22 (Findings)"
   authors: "<ins><strong>Tuan Dinh</strong></ins>, Jy-yong Sohn, Shashank Rajput, Timothy Ossowski, Yifei Ming, Junjie Hu, Dimitris Papailiopoulos, Kangwook Lee"
+  tldr: "Text-Image correlation (via CLIP embedding) can be effeciently utilized with static embedding for robust word translation."
 
 
 - title:  "LIFT: Language-Interfaced Fine-Tuning for Non-Language Machine Learning Tasks"
@@ -36,11 +38,12 @@
   summary: "https://twitter.com/Kangwook_Lee/status/1536789544820957184"
   badge: "NeurIPS'22"
   authors: "<ins><strong>Tuan Dinh*</strong></ins>, Yuchen Zeng*, Ruisu Zhang, Ziqian Lin, Michael Gira, Shashank Rajput, Jy-yong Sohn, Dimitris Papailiopoulos, Kangwook Lee"
+  tldr: "Pretrained LLMs, via language-interface, can be useful for learning non-language tasks, e.g., tabular data classification."
 
 - title:  "Improved Input Reprogramming for GAN Conditioning"
   date:   2022-05-28 22:20:59 +00:00
   image: /images/logo.png #/images/repgan.png
-  topic: GAN
+  topic: GAN, PEFT
   author: "Tuan Dinh"
   # subtitle: "To Appear"
   venue: "International Conference on Machine Learning (Updatable ML)"
@@ -49,11 +52,12 @@
   summary: "We aim to repurpose pretrained unconditional generative models to generate conditional samples. To do so, our method InRep+ utilizes the input reprogramming framework where we only modify the latent (noise) distribution and leave the pretrained generator unchanged. Our method shows significant computing savings compared to fine-tuning or full CGANs training, with comparable or even better generation performance when the amount of labeled data is small."
   badge: "ICMLW'22"
   authors: "<ins><strong>Tuan Dinh</strong></ins>, Daewon Seo, Zhixu Du, Liang Shang, Kangwook Lee"
+  tldr: "Pretrained GANs can be efficiently repurposed (without modification) to conditionally generate samples in their support."
 
 - title:  "Coded-InvNet for Resilient Prediction Serving Systems"
   date:   2021-07-17 22:20:59 +00:00
   image: /images/codedinvnet.png
-  topic: GAN, MLSys
+  topic: MLSys, GAN
   author: "Tuan Dinh, Kangwook Lee"
   # subtitle: "submitted"
   venue: "International Conference on Machine Learning (Long Talk -- 3%)"
@@ -63,11 +67,12 @@
   # slides: /pdfs/
   badge: "ICML'21 (Oral)"
   authors: "<ins><strong>Tuan Dinh</strong></ins>, Kangwook Lee"
+  tldr: "Coded-InvNet is a coded computation method combined with image-to-image translation to improve resilience of MLSS."
 
 - title:  "Performing Group Difference Testing on Graph Structured Data from GANs: Analysis and Applications in Neuroimaging"
   date:   2020-07-18 22:20:59 +00:00
   image: /images/graphgan.png
-  topic: GAN, Medical Image
+  topic: GAN, Medical Imaging
   author: "Tuan Dinh"
   # subtitle: "To Appear"
   venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
@@ -76,14 +81,16 @@
   link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7867665/
   code: https://github.com/yyxiongzju/GLapGAN
   authors: "<ins><strong>Tuan Dinh</strong></ins>, Yunyang Xiong, Zhichun Huang, Tien Vo, Akshay Mishra, Won Hwa Kim, Sathya Ravi, Vikas Singh"
+  tldr: "Analyzing when GAN-based data can obtain the similar conclusions with trained data in scientific or biomedical studies."
 
 - title:  "The Promise of Conditional Gradient Methods for Training Deep Models"
   date:   2019-09-12 22:20:59 +00:00
   image: /images/deepcg.png
-  topic: GAN, Optimization
+  topic: Optimization, GAN
   author: "Sathya Ravi"
   venue: "In Proceedings of the 2019 AAAI Conference on Artificial Intelligence (Oral Presentation)"
   badge: "AAAI'20 (Oral)"
   link: "https://arxiv.org/abs/1803.06453"
   code: https://github.com/lokhande-vishnu/deepcg
   authors: "Sathya Ravi, <ins><strong>Tuan Dinh</strong></ins>, Vishnu Lokhande, Vikas Singh"
+  tldr: "Conditional gradients can be utilized to faster training of deep networks with provably better generalization guarantees."

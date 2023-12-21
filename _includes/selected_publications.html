@@ -15,12 +15,19 @@
       </thead>
       {% for article in site.data.paper_ml %}
       <tr>
-        <td>{% if article.link %} <a href="{{ article.link }}">{{ article.badge }}</a>{% else %} {{ article.badge }} {% endif %} </td>
-        <td>{{ article.topic}}</td>
+        <td class="styled-center">{% if article.link %} <a href="{{ article.link }}">{{ article.badge }}</a>{% else %} {{ article.badge }} {% endif %} </td>
+        <td class="styled-center">{{ article.topic}}</td>
         <td>{{ article.title}}</td>
-        <td>{% if article.summary %} <a href="{{ article.summary }}">summary</a>{% endif %}</td>
-        <td>{% if article.code %} <a href="{{ article.code }}">code</a>{% endif %}</td>
+        <td class="styled-center">{% if article.summary %} <a href="{{ article.summary }}">summary</a>{% endif %}</td>
+        <td class="styled-center">{% if article.code %} <a href="{{ article.code }}">code</a>{% endif %}</td>
       </tr>
+      {% if article.tldr %}
+      <tr>
+        <td colspan="1"></td>
+        <td colspan="1" style="text-align: right; padding-right:0%"><em>TL;DR: </em></td>
+        <td colspan="4"><em></em>{{article.tldr }}</em></td>
+      </tr>
+      {% endif %}
       {% endfor %}
     </table>
 </div>
@@ -41,12 +48,18 @@
       </thead>
       {% for article in site.data.paper_others %}
       <tr>
-        <td>{% if article.link %} <a href="{{ article.link }}">{{ article.badge }}</a>{% else %} {{ article.badge }} {% endif %} </td>
-        <td>{{ article.topic}}</td>
-        <td>{{ article.title}}</td>
-        <td>{% if article.summary %} <a href="{{ article.summary }}">summary</a>{% endif %}</td>
-        <td>{% if article.code %} <a href="{{ article.code }}">code</a>{% endif %}</td>
+        <td class="styled-center">{% if article.link %} <a href="{{ article.link }}">{{ article.badge }}</a>{% else %} {{ article.badge }} {% endif %} </td>
+        <td class="styled-center">{{ article.topic}}</td>
+        <td >{{ article.title}}</td>
+        <td class="styled-center">{% if article.summary %} <a href="{{ article.summary }}">summary</a>{% endif %}</td>
+        <td class="styled-center">{% if article.code %} <a href="{{ article.code }}">code</a>{% endif %}</td>
       </tr>
+      {% if article.tldr %}
+      <tr>
+        <td colspan="2"></td>
+        <td colspan="4"><em>TL;DR: {{article.tldr }}</em></td>
+      </tr>
+      {% endif %}
       {% endfor %}
     </table>
 </div>
@@ -70,6 +83,12 @@
         <td>{{ article.topic}}</td>
         <td>{{ article.title}}</td>
       </tr>
+      {% if article.tldr %}
+      <tr>
+        <td colspan="2"></td>
+        <td colspan="4"><em>TL;DR: {{article.tldr }}</em></td>
+      </tr>
+      {% endif %}
       {% endfor %}
     </table>
 </div>

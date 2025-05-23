@@ -41,9 +41,9 @@ body {
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9em;
-    font-family: sans-serif;
+    font-family: Arial;
     min-width: 400px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    // box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
 // #9bbdb4
@@ -69,13 +69,13 @@ body {
 
 .header {
     text-align: left;
-    background-color: #4b97a8de;
+    background-color: #808080;
     color: #fff;
   }
 
 .navbar {
-    border-bottom: #4b97a8de;
+    border-bottom: #808080;
 }
 .bg-dark {
-    background-color: #4b97a8de;
+    background-color: #808080;
 }

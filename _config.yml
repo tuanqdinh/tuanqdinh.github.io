@@ -1,7 +1,7 @@
 # Site settings
 title: Tuan Q. Dinh
 email: tuan.dinh@ucsf.edu
-description: Academic webpage of Dr. Tuan Q. Dinh
+description: Academic webpage of Tuan Dinh
 baseurl: ""
 url: ""
 
@@ -26,11 +26,12 @@ contact: >
 
 # Pages shown in navbar
 nav_pages:
-  # - name: about
-  # - name: publications
+  - name: about
+  - name: publications
   # - name: talks
-  # - name: research
-  # - name: software
+  - name: research
+  - name: software
+  - name: misc
   # - name: team
   # - name: teaching
 

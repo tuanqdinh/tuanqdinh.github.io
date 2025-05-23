@@ -35,17 +35,17 @@
 <br/>
 <br/>
 <div class="container">
-  <div class="header" style="padding:0.5%">
+    <!-- <div class="header" style="padding:0.5%"> -->
     <h4 style="padding-left:1%;width:100%;vertical-align:center;font-family: 'Courier Prime'">AI for Science and Healthcare</h4>
-    </div>
+    <!-- </div> -->
     <table class="styled-table">
-      <thead>
+      <!-- <thead>
         <th>Link</th>
         <th>Topic</th>
         <th>Title</th>
         <th>Summary</th>
         <th>Github</th>
-      </thead>
+      </thead> -->
       {% for article in site.data.paper_others %}
       <tr>
         <td class="styled-center">{% if article.link %} <a href="{{ article.link }}">{{ article.badge }}</a>{% else %} {{ article.badge }} {% endif %} </td>

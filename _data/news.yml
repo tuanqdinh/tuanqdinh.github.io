@@ -5,13 +5,13 @@
 #   headline: "Example news here"
 
 - date: "05.25"
-  headline: Submited our work on ESM for variant effect prediction for review (Nature Methods)
+  headline: Submited our work on ESM for variant effect prediction (Nature Methods)
   
 - date: "05.25"
-  headline:  TabFlex is accepted to ICML 2025 (Splotlight). Thanks Yuchen and coloborators at Microsoft. 
+  headline:  TabFlex is accepted to ICML 2025 (Splotlight). Thanks Yuchen and colaborators at Microsoft. 
 
 - date: "05.25"
-  headline: The two collaborated works on protein language models are  under review (Cell Genomics)
+  headline: The two collaborated works on protein language models are under review (Cell Genomics)
 
 - date: "09.23"
   headline:  BugComp is accepted to NeurIPS 2023.

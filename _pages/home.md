@@ -33,11 +33,13 @@ Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
 <p style="text-align:justify;"> <em>Education:</em> I obtained my Ph.D. in Computer Sciences (minor in Statistics) with Prof. <a href="https://kangwooklee.com/">Kangwook Lee</a>, studying modular neural networks built on pre-trained models. Previously, I completed my M.S. with Prof. <a href="https://www.biostat.wisc.edu/~vsingh/">Vikas Singh</a>, studing GANs for graph-structured data and my B.E. with Prof. <a href="https://sph.uth.edu/faculty/index.htm#KAxVpHwjEQAbZXgfZvxCQA==">Tru Cao</a>, studying AI systems for disease forecast and healthcare. </p>
 
 
-
-<div class="jumbotron" style="margin-left:1%;margin-top:1%">
-   <center>
-   <img src="images/protein_llm.png" width="50%" style="block:inline; margin-left:auto; margin-right:auto"/>
-</div>
+<div class="jumbotron" style="margin-left:0;margin-top:0">
+<center>
+<img src="images/protein_llm.png" width="40%" style="block:inline; margin-left:auto; margin-right:auto"/>
+<!-- </div> -->
 <!-- <br> -->
-<p style="text-align:justify;"><em>Work:</em> My research interests are AI/ML and AI4Science, with the current focus being modular deep learning for computational biology.</p>
+<p style="text-align:justify;"><em>Research:</em> My research interests are AI/ML and AI4Science, with the current focus being modular deep learning for computational biology.<br>
+Misc. My favorite (translated) poem <q>I chase the mist where whispers lie, The wise take wing beneath the sky</q></p>
+
+<!-- “Learning does not make one learned: there are those who have knowledge and those who have understanding. The first requires memory and the second philosophy.” -->
 

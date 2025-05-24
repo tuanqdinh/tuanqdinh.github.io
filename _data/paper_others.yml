@@ -6,6 +6,7 @@
   link: "https://dl.acm.org/doi/10.1145/3495243.3560533"
   # slides: /pdfs/
   badge: "MobiCom'22"
+  summary: "#"
   code: https://github.com/PROS-public/pros
   authors: "Nhat Pham, Hong Jia, Minh Tran, <ins><strong>Tuan Dinh</strong></ins>, Nam Bui, Young Kwon, Dong Ma, Phuc Nguyen, Cecilia Mascolo, and Tam Vu"
 
@@ -18,6 +19,8 @@
   # slides: /pdfs/
   badge: "MobiSys'21"
   link: "https://dl.acm.org/doi/10.1145/3386901.3389032"
+  summary: "#"
+  code: "#"
   authors: "Nhat Pham, <ins><strong>Tuan Dinh</strong></ins>, Zohreh Raghebi, Taeho Kim, Nam Bui, Phuc Nguyen, Hoang Truong, Farnoush Banaei-Kashani, Ann Halbower, Thang Dinh, and Tam Vu"
 
 - title:  "Detection of Microsleep Events with a Behind-the-ear Wearable System"

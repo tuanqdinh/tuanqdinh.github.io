@@ -57,12 +57,12 @@
         <td class="styled-center">{% if article.summary %} <a href="{{ article.summary }}">summary</a>{% endif %}</td>
         <td class="styled-center">{% if article.code %} <a href="{{ article.code }}">code</a>{% endif %}</td>
       </tr>
-      {% if article.tldr %}
+      <!-- {% if article.tldr %}
       <tr>
         <td colspan="2"></td>
         <td colspan="4"><em>TL;DR: {{article.tldr }}</em></td>
       </tr>
-      {% endif %}
+      {% endif %} -->
       {% endfor %}
     </table>
 </div>

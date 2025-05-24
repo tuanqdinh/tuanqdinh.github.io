@@ -20,7 +20,7 @@ permalink: /about/
   {% if member.cv %} <a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-3x"></i></a> {% endif %}
   {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a> {% endif %}
   {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-3x"></i></a> {% endif %}
-  {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-3x"></i></a> {% endif %}
+  <!-- {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-3x"></i></a> {% endif %} -->
 <!-- 
   <ul style="overflow: hidden">
   {% if member.number_educ == 1 %}
@@ -73,7 +73,7 @@ permalink: /about/
 </div>
 {% endif %}
 
-{% if site.data.awards %}
+<!-- {% if site.data.awards %}
 <div class="jumbotron">
 ### Awards
 <ul>
@@ -82,9 +82,9 @@ permalink: /about/
 {% endfor %}
 </ul>
 </div>
-{% endif %}
+{% endif %} -->
 
-{% if site.data.people %}
+<!-- {% if site.data.people %}
 <div class="jumbotron">
 ### Students and mentoring
 <ul>
@@ -93,11 +93,11 @@ permalink: /about/
 {% endfor %}
 </ul>
 </div>
-{% endif %}
+{% endif %} -->
 
-<div class="jumbotron">
+<!-- <div class="jumbotron">
   <h4>Sponsors</h4>
   <div style='display:block; text-align:center; margin-left:auto; margin-right:auto;'>
  {% for funder in site.data.funders %}<a href="{{ funder.url }}" target="_blank"><img src='{{ site.url }}{{ site.baseurl }}/images/{{ funder.image }}' style='max-height: 80px; max-width: 200px; margin: 1%'/></a>{% endfor %}
   </div>
-</div> -->
+</div>  -->

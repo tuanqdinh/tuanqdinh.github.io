@@ -35,4 +35,7 @@ Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
 <br>
 <p style="text-align:justify;"><em>Work:</em> My research interests are AI/ML and AI4Science, with the current focus being modular deep learning for computational biology.</p>
 <br>
+<div>
+  <img src="images/protein_llm.png" width="100%" style="max-width:250px" alt="">
+</div>
 

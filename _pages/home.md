@@ -39,7 +39,7 @@ Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
 <p style="text-align:justify;"><em>Research interests:</em> AI/ML and AI4Science, with the current focus being modular deep learning for computational biology.<br>
 <img src="images/light-bulb.png" width="30" height="30" style="margin-right:5px" class="d-inline-block align-top" alt=""> When time rushes by, I read/translate poems, seeking the ones that speak to me; and my favorite couplet is <em><q>I chase the mist where whispers lie, The wise take wing beneath the sky.</q></em></p>
 
-<p style="text-align:justify;"> <em>Education:</em> Tuan obtained my Ph.D. in Computer Sciences (minor in Statistics) with Prof. <a href="https://kangwooklee.com/">Kangwook Lee</a>, studying modular neural networks built on pre-trained models. Previously, Tuan completed the M.S. with Prof. <a href="https://www.biostat.wisc.edu/~vsingh/">Vikas Singh</a>, studing GANs for graph-structured data and the B.E. with Prof. <a href="https://sph.uth.edu/faculty/index.htm#KAxVpHwjEQAbZXgfZvxCQA==">Tru Cao</a>, studying AI systems for disease forecast and healthcare.</p>
+<p style="text-align:justify;"> <em>Education:</em> Tuan obtained Ph.D. in Computer Sciences (minor in Statistics) with Prof. <a href="https://kangwooklee.com/">Kangwook Lee</a>, studying modular neural networks built on pre-trained models. Previously, Tuan completed the M.S. with Prof. <a href="https://www.biostat.wisc.edu/~vsingh/">Vikas Singh</a>, studing GANs for graph-structured data and the B.E. with Prof. <a href="https://sph.uth.edu/faculty/index.htm#KAxVpHwjEQAbZXgfZvxCQA==">Tru Cao</a>, studying AI systems for disease forecast and healthcare.</p>
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Research"
-layout: gridlay
+layout: working_page
 sitemap: false
 permalink: /research/
 ---

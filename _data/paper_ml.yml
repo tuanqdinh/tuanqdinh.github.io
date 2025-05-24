@@ -63,10 +63,11 @@
   venue: "International Conference on Machine Learning (Updatable ML)"
   link: https://arxiv.org/abs/2201.02692
   code: https://github.com/UW-Madison-Lee-Lab/InRep
-  summary: "We aim to repurpose pretrained unconditional generative models to generate conditional samples. To do so, our method InRep+ utilizes the input reprogramming framework where we only modify the latent (noise) distribution and leave the pretrained generator unchanged. Our method shows significant computing savings compared to fine-tuning or full CGANs training, with comparable or even better generation performance when the amount of labeled data is small."
+  summary: "#"
   badge: "ICMLW'22"
   authors: "<ins><strong>Tuan Dinh</strong></ins>, Daewon Seo, Zhixu Du, Liang Shang, Kangwook Lee"
   tldr: "Pretrained GANs can be efficiently repurposed (without modification) to conditionally generate samples in their support."
+  # We aim to repurpose pretrained unconditional generative models to generate conditional samples. To do so, our method InRep+ utilizes the input reprogramming framework where we only modify the latent (noise) distribution and leave the pretrained generator unchanged. Our method shows significant computing savings compared to fine-tuning or full CGANs training, with comparable or even better generation performance when the amount of labeled data is small
 
 - title:  "Coded-InvNet for Resilient Prediction Serving Systems"
   date:   2021-07-17 22:20:59 +00:00
@@ -77,11 +78,12 @@
   venue: "International Conference on Machine Learning (Long Talk -- 3%)"
   link: "https://arxiv.org/abs/2106.06445"
   code: "https://github.com/UW-Madison-Lee-Lab/CodedInvNet"
-  summary: "We study how to improve the resilience of ML service system. Our method is based on the coded computation method where we encode inputs in such a way that we can simply and effectively reconstruct the failed outputs. To apply the idea for ML models, we propose Coded-InvNet framework with utilizing the invertibility of neural network and the image-to-image translation model. We show that our framework improves the resilience of MLSS, especially with the setting of large numbers of queries."
+  summary: "#"
   # slides: /pdfs/
   badge: "ICML'21 (Oral)"
   authors: "<ins><strong>Tuan Dinh</strong></ins>, Kangwook Lee"
   tldr: "Coded-InvNet is a coded computation method combined with image-to-image translation to improve resilience of MLSS."
+  # We study how to improve the resilience of ML service system. Our method is based on the coded computation method where we encode inputs in such a way that we can simply and effectively reconstruct the failed outputs. To apply the idea for ML models, we propose Coded-InvNet framework with utilizing the invertibility of neural network and the image-to-image translation model. We show that our framework improves the resilience of MLSS, especially with the setting of large numbers of queries.
 
 - title:  "Performing Group Difference Testing on Graph Structured Data from GANs: Analysis and Applications in Neuroimaging"
   date:   2020-07-18 22:20:59 +00:00

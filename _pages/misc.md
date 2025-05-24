@@ -1,6 +1,6 @@
 ---
-title: "misc"
-layout: gridlay
+title: "Miscellaneous"
+layout: working_page
 sitemap: false
 permalink: /misc/
 ---
@@ -30,18 +30,4 @@ iframe {
 }
 </style>
 
-## Blog posts
 
-## Books
-
-## Gallery
-
-## Fun
-
-<!-- <div class="jumbotron">
-<div class="col-md-12 col-sm-12">
-<h4>Example Research</h4>
-
-Example description -->
-<!-- </div>
-</div> -->

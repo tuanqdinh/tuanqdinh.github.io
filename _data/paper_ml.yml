@@ -7,7 +7,7 @@
   # In Proceedings of the Machine Learning for Code Workshop at Amazon Machine Learning Conference
   link: "https://icml.cc/virtual/2025/poster/44649"
   code: "https://icml.cc/virtual/2025/poster/44649"
-  badge: "ICML'25 (Splotlight)"
+  badge: "ICML'25 (Spotlight)"
   summary: "https://icml.cc/virtual/2025/poster/44649"
   authors: "Yuchen Zeng*, <ins><strong>Tuan Dinh</strong></ins>, Wonjun Kang, Andreas Mueller"
   tldr: "A linear attention-based model for scalable tabular classification, outperforming existing methods in speed and maintaining good performance on both small and large datasets."

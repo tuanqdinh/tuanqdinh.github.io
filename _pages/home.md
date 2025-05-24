@@ -31,10 +31,10 @@ Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
 
 <p style="text-align:justify;">This is the personal webpage of Tuan ([tʰwɑ̃n], fullname: Tuan Q. Dinh). I am currently a postdoc fellow working on foundation models and their development for scientific discovery, especially for proteins and human genetics. I am jointly supervised by Prof. <a href="https://profiles.ucsf.edu/vasilis.ntranos"> Vasilis Ntranos </a> at UCSF and the Data Sciences group at <a href="https://mazetx.com/">Maze Therapeutics</a>.</p>
 
-<div class="jumbotron" style="margin-left:0;margin-top:0">
-<center>
+<!-- <div class="jumbotron" style="margin-left:0;margin-top:0"> -->
+<!-- <center> -->
 <img src="images/protein_llm.png" width="40%" style="block:inline; margin-left:auto; margin-right:auto">
-</div>
+<!-- </div> -->
 
 <p style="text-align:justify;"><em>Research interests:</em> AI/ML and AI4Science, with the current focus being modular deep learning for computational biology.<br>
 <em>Facts</em>. When time rushes by, I read and translate poems, seeking the ones that speak to me, <em><q>I chase the mist where whispers lie, The wise take wing beneath the sky.</q></em></p>

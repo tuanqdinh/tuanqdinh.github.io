@@ -39,7 +39,7 @@ Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
 <!-- </div> -->
 <!-- <br> -->
 <p style="text-align:justify;"><em>Research:</em> My research interests are AI/ML and AI4Science, with the current focus being modular deep learning for computational biology.<br>
-Misc. My favorite (translated) poem <q>I chase the mist where whispers lie, The wise take wing beneath the sky</q></p>
+Misc. My favorite (translated) poem <blockquote> I chase the mist where whispers lie, The wise take wing beneath the sky</blockquote></p>
 
 <!-- “Learning does not make one learned: there are those who have knowledge and those who have understanding. The first requires memory and the second philosophy.” -->
 

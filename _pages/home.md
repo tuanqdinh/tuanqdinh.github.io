@@ -29,7 +29,7 @@ Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
 
 <!-- ### About me -->
 
-<p style="text-align:justify;">I am Tuan, a postdoc fellow working on foundation models and their development for scientific discovery, especially for proteins and human genetics. I am jointly supervised by Prof. <a href="https://profiles.ucsf.edu/vasilis.ntranos"> Vasilis Ntranos </a> at UCSF and the Data Sciences group at <a href="https://mazetx.com/">Maze Therapeutics</a>.</p>
+<p style="text-align:justify;">I am Tuan ([tʰwɑ̃n]), a postdoc fellow working on foundation models and their development for scientific discovery, especially for proteins and human genetics. I am jointly supervised by Prof. <a href="https://profiles.ucsf.edu/vasilis.ntranos"> Vasilis Ntranos </a> at UCSF and the Data Sciences group at <a href="https://mazetx.com/">Maze Therapeutics</a>.</p>
 <p style="text-align:justify;"> <em>Education:</em> I obtained my Ph.D. in Computer Sciences (minor in Statistics) with Prof. <a href="https://kangwooklee.com/">Kangwook Lee</a>, studying modular neural networks built on pre-trained models. Previously, I completed my M.S. with Prof. <a href="https://www.biostat.wisc.edu/~vsingh/">Vikas Singh</a>, studing GANs for graph-structured data and my B.E. with Prof. <a href="https://sph.uth.edu/faculty/index.htm#KAxVpHwjEQAbZXgfZvxCQA==">Tru Cao</a>, studying AI systems for disease forecast and healthcare.</p>
 
 

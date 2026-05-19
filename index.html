@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tuan Q. Dinh — Researcher</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #fafaf8; --surface: #ffffff; --surface2: #f2f1ee;
+    --border: rgba(0,0,0,0.08); --border-strong: rgba(0,0,0,0.14);
+    --text: #1a1917; --muted: #6b6860;
+    --accent: #1a4d8f; --accent-light: #e8eef8;
+    --accent2: #2c7a52; --accent2-light: #e8f4ee;
+    --warm: #8b5e00; --warm-light: #fdf2dd;
+    --tag-bg: #eeecea; --tag-text: #4a4840;
+    --mono: 'DM Mono', monospace; --sans: 'DM Sans', sans-serif;
+    --nav-h: 60px; --max: 860px; --radius: 10px; --t: 0.18s ease;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141412; --surface: #1e1d1b; --surface2: #252320;
+      --border: rgba(255,255,255,0.08); --border-strong: rgba(255,255,255,0.14);
+      --text: #f0ede8; --muted: #8a8780;
+      --accent: #5b8fd4; --accent-light: #1a2840;
+      --accent2: #4aad78; --accent2-light: #142b1e;
+      --warm: #f5c760; --warm-light: #2a2010;
+      --tag-bg: #2a2826; --tag-text: #c0bdb8;
+    }
+  }
+  html { scroll-behavior: smooth; }
+  body { font-family: var(--sans); background: var(--bg); color: var(--text); font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+
+  nav { position: sticky; top: 0; z-index: 100; height: var(--nav-h); background: var(--bg); border-bottom: 1px solid var(--border); display: flex; align-items: center; backdrop-filter: blur(12px); }
+  nav .inner { max-width: var(--max); margin: 0 auto; padding: 0 24px; width: 100%; display: flex; align-items: center; justify-content: space-between; }
+  .nav-name { font-size: 15px; font-weight: 500; letter-spacing: -0.01em; color: var(--text); text-decoration: none; }
+  .nav-links { display: flex; gap: 4px; list-style: none; }
+  .nav-links a { font-size: 13.5px; color: var(--muted); text-decoration: none; padding: 6px 10px; border-radius: 6px; transition: background var(--t), color var(--t); }
+  .nav-links a:hover { color: var(--text); background: var(--surface2); }
+
+  main { max-width: var(--max); margin: 0 auto; padding: 0 24px 80px; }
+  section { padding-top: 72px; }
+
+  .hero { padding-top: 60px; padding-bottom: 8px; display: grid; grid-template-columns: 1fr auto; gap: 40px; align-items: start; }
+  .hero-eyebrow { font-size: 12px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 12px; }
+  h1 { font-size: clamp(32px, 5vw, 44px); font-weight: 300; letter-spacing: -0.03em; line-height: 1.1; color: var(--text); margin-bottom: 6px; }
+  h1 strong { font-weight: 500; }
+  .hero-title { font-size: 15.5px; color: var(--muted); margin-bottom: 18px; }
+  .hero-bio { font-size: 15px; color: var(--text); max-width: 560px; line-height: 1.72; margin-bottom: 24px; }
+  .hero-bio a { color: var(--accent); text-decoration: none; }
+  .hero-bio a:hover { text-decoration: underline; }
+  .hero-links { display: flex; flex-wrap: wrap; gap: 8px; }
+  .btn { display: inline-flex; align-items: center; gap: 6px; font-size: 13.5px; font-weight: 500; padding: 7px 14px; border-radius: 7px; text-decoration: none; transition: all var(--t); border: 1px solid var(--border-strong); color: var(--text); background: var(--surface); font-family: var(--sans); }
+  .btn:hover { background: var(--surface2); }
+  .btn-primary { background: var(--accent); color: #fff; border-color: transparent; }
+  .btn-primary:hover { opacity: 0.88; background: var(--accent); }
+  .btn svg { width: 14px; height: 14px; flex-shrink: 0; }
+  .avatar { width: 112px; height: 112px; border-radius: 50%; background: var(--accent-light); border: 2px solid var(--border-strong); display: flex; align-items: center; justify-content: center; font-size: 36px; font-weight: 300; color: var(--accent); flex-shrink: 0; letter-spacing: -0.03em; }
+
+  .divider { border: none; border-top: 1px solid var(--border); margin-top: 56px; }
+  .section-label { font-size: 11px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 22px; display: flex; align-items: center; gap: 10px; }
+  .section-label::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+  .working-on { background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: var(--radius); padding: 20px 24px; }
+  .working-on-label { font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 10px; }
+  .working-on p { font-size: 15px; color: var(--text); line-height: 1.72; }
+  .working-on p + p { margin-top: 8px; }
+
+  .news-list { display: flex; flex-direction: column; }
+  .news-item { display: grid; grid-template-columns: 56px 1fr; gap: 16px; padding: 11px 0; border-bottom: 1px solid var(--border); align-items: baseline; }
+  .news-item:last-child { border-bottom: none; }
+  .news-date { font-family: var(--mono); font-size: 11.5px; color: var(--muted); }
+  .news-text { font-size: 14px; color: var(--text); line-height: 1.55; }
+  .news-text a { color: var(--accent); text-decoration: none; }
+  .news-text a:hover { text-decoration: underline; }
+
+  .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(248px, 1fr)); gap: 14px; }
+  .project-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 22px; display: flex; flex-direction: column; gap: 10px; transition: border-color var(--t), box-shadow var(--t); }
+  .project-card:hover { border-color: var(--border-strong); box-shadow: 0 2px 18px rgba(0,0,0,0.06); }
+  .project-top { display: flex; align-items: center; justify-content: space-between; }
+  .project-icon { width: 36px; height: 36px; border-radius: 8px; background: var(--accent-light); display: flex; align-items: center; justify-content: center; color: var(--accent); }
+  .project-icon svg { width: 18px; height: 18px; }
+  .project-venue { font-family: var(--mono); font-size: 11px; font-weight: 500; color: var(--accent); background: var(--accent-light); padding: 3px 8px; border-radius: 5px; }
+  .project-venue.oral { color: var(--accent2); background: var(--accent2-light); }
+  .project-venue.spotlight { color: var(--warm); background: var(--warm-light); }
+  .project-title { font-size: 14.5px; font-weight: 500; color: var(--text); line-height: 1.35; }
+  .project-desc { font-size: 13.5px; color: var(--muted); line-height: 1.58; flex: 1; }
+  .project-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+  .tag { font-size: 11.5px; padding: 2px 8px; border-radius: 5px; background: var(--tag-bg); color: var(--tag-text); }
+  .project-link { font-size: 12.5px; color: var(--accent); text-decoration: none; display: inline-flex; align-items: center; gap: 4px; margin-top: auto; }
+  .project-link:hover { text-decoration: underline; }
+  .project-link svg { width: 12px; height: 12px; }
+
+  .pub-list { display: flex; flex-direction: column; gap: 12px; }
+  .pub-item { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 15px 20px; transition: border-color var(--t); }
+  .pub-item:hover { border-color: var(--border-strong); }
+  .pub-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 6px; flex-wrap: wrap; }
+  .pub-venue { display: inline-flex; align-items: center; font-family: var(--mono); font-size: 11px; font-weight: 500; color: var(--accent); background: var(--accent-light); padding: 3px 8px; border-radius: 5px; }
+  .pub-venue.oral { color: var(--accent2); background: var(--accent2-light); }
+  .pub-venue.spotlight { color: var(--warm); background: var(--warm-light); }
+  .pub-year { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+  .pub-title { font-size: 14px; font-weight: 500; color: var(--text); line-height: 1.4; margin-bottom: 3px; }
+  .pub-title a { color: inherit; text-decoration: none; }
+  .pub-title a:hover { color: var(--accent); }
+  .pub-authors { font-size: 12.5px; color: var(--muted); margin-bottom: 6px; }
+  .pub-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 6px; }
+  .pub-links { display: flex; gap: 12px; margin-top: 8px; }
+  .pub-link { font-size: 12px; color: var(--accent); text-decoration: none; display: inline-flex; align-items: center; gap: 3px; }
+  .pub-link:hover { text-decoration: underline; }
+  .hidden-pub { display: none; }
+  .show-more-btn { margin-top: 12px; display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--accent); background: none; border: none; cursor: pointer; padding: 0; font-family: var(--sans); }
+  .show-more-btn:hover { text-decoration: underline; }
+
+  .personal-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+  .personal-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 22px; }
+  .personal-card-label { font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+  .personal-card p { font-size: 14px; color: var(--text); line-height: 1.65; }
+  .personal-card em { font-style: italic; color: var(--muted); }
+  .personal-card p + p { margin-top: 8px; }
+
+  .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; }
+  .contact-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 18px; text-decoration: none; color: var(--text); display: flex; align-items: center; gap: 12px; transition: border-color var(--t), background var(--t); }
+  .contact-card:hover { background: var(--surface2); border-color: var(--border-strong); }
+  .contact-icon { width: 34px; height: 34px; border-radius: 8px; background: var(--accent-light); display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--accent); }
+  .contact-icon svg { width: 16px; height: 16px; }
+  .contact-label { font-size: 11.5px; color: var(--muted); margin-bottom: 1px; }
+  .contact-val { font-size: 13px; font-weight: 500; }
+
+  footer { border-top: 1px solid var(--border); margin-top: 72px; padding: 26px 24px; text-align: center; font-size: 12.5px; color: var(--muted); max-width: var(--max); margin-left: auto; margin-right: auto; }
+
+  @media (max-width: 640px) {
+    .hero { grid-template-columns: 1fr; }
+    .hero-right { display: none; }
+    nav .inner { padding: 0 16px; }
+    main { padding: 0 16px 60px; }
+    .nav-links a { padding: 6px 7px; font-size: 13px; }
+  }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+  .hero { animation: fadeUp 0.45s ease both; }
+  section { animation: fadeUp 0.5s ease both; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="inner">
+    <a href="#" class="nav-name">Tuan Q. Dinh</a>
+    <ul class="nav-links">
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#publications">Papers</a></li>
+      <li><a href="#personal">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-text">
+      <div class="hero-eyebrow">Researcher · AI / ML / CompBio</div>
+      <h1><strong>Tuan Q. Dinh</strong></h1>
+      <p class="hero-title">Postdoc · UCSF &amp; Maze Therapeutics</p>
+      <p class="hero-bio">
+        I build and study <strong>foundation models</strong> — with a focus on what happens after pre-training: alignment, adaptation, hallucination, and generalization to new domains. Currently applying these ideas to computational biology (proteins, genetics) as a postdoc at <a href="https://profiles.ucsf.edu/vasilis.ntranos" target="_blank">UCSF</a> and <a href="https://mazetx.com/" target="_blank">Maze Therapeutics</a>. Ph.D. from UW–Madison with <a href="https://kangwooklee.com/">Kangwook Lee</a>, where I worked on modular and robust machine learning systems.
+      </p>
+      <div class="hero-links">
+        <a href="https://scholar.google.com/citations?user=pVsYxE4AAAAJ&hl=en" target="_blank" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          Google Scholar
+        </a>
+        <a href="https://github.com/tuanqdinh" target="_blank" class="btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          GitHub
+        </a>
+        <a href="mailto:tuan.quang.dinh@proton.me" class="btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Email
+        </a>
+        <a href="#" class="btn"><!-- update to href="cv.pdf" -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          CV
+        </a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="avatar">
+        <img src="images/avatar_chopper.png" style="width:112px;height:112px;border-radius:50%;object-fit:cover;">
+      </div>
+    </div>
+  </div>
+
+  <!-- WHAT I'M WORKING ON -->
+  <section style="padding-top: 40px;">
+    <div class="working-on">
+      <div class="working-on-label">&#9632;&nbsp; What I'm working on</div>
+      <p>Right now I'm thinking a lot about <strong>how protein language models encode functional information</strong> — and whether that signal is recoverable enough to drive variant effect prediction at clinical scale. It's a surprisingly hard problem: the models are powerful but their uncertainty is poorly calibrated.</p>
+      <p>More broadly I'm interested in <strong>continual learning and domain adaptation</strong> — how to keep a model useful as the world (or the data) changes, without forgetting what it already knows.</p>
+    </div>
+  </section>
+
+  <hr class="divider" />
+  <section id="news">
+    <div class="section-label">News</div>
+    <div class="news-list">
+      <div class="news-item">
+        <span class="news-date">May'26</span>
+        <span class="news-text">Happy to receive complimentary registration for ICML 2026 as "Technical Reviewer : Gold" </span>
+      </div>
+      <div class="news-item">
+        <span class="news-date">Mar'26</span>
+        <span class="news-text"><strong>VESM</strong> got accepted to <strong>Nature Methods</strong> - unsupervised co-distillation of protein LMs for variant effect prediction</span>
+      </div>
+      <div class="news-item">
+        <span class="news-date">May'25</span>
+        <span class="news-text">Two collaborative works (with UCLA and UCSF) on protein LMs are accepted to <strong>Cell Systems</strong></span>
+      </div>
+      <div class="news-item">
+        <span class="news-date">May'25</span>
+        <span class="news-text"><strong>TabFlex</strong> accepted to <strong>ICML 2025 (Spotlight)</strong> — scaling tabular learning with linear attention</span>
+      </div>
+      <!-- <div class="news-item">
+        <span class="news-date">2024</span>
+        <span class="news-text">Started postdoc at UCSF &amp; Maze Therapeutics, working on foundation models for genomics and drug target discovery.</span>
+      </div> -->
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label">Selected Projects</div>
+    <div class="project-grid">
+      <div class="project-card">
+        <div class="project-top">
+          <div class="project-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          </div>
+          <span class="project-venue oral"> Nature Methods 2026</span>
+        </div>
+        <div class="project-title">VESM: Compressing the collective knowledge of ESMs</div>
+        <div class="project-desc">
+        A co-distillation framework that teaches protein LMs to learn from each other — achieving SoTA variant effect prediction on clinical genetics benchmarks w/o structural or alignment data.
+        </div>
+        <div class="project-tags"><span class="tag">Protein LM</span><span class="tag">Distillation</span><span class="tag">Unsupervised Learning</span></div>
+        <a href="https://github.com/ntranoslab/vesm" target="_blank" class="project-link">
+          Paper &amp; code
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <div class="project-icon" style="background: var(--accent2-light); color: var(--accent2);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <span class="project-venue oral">NeurIPS 2023</span>
+        </div>
+        <div class="project-title">LLMs of Code Fail on Buggy Completions</div>
+        <div class="project-desc">Revealed a systematic blind spot: code LLMs confidently complete buggy code even when prompted to be cautious. Built a benchmark exposing this failure across GPT-4, Codex, and others.</div>
+        <div class="project-tags"><span class="tag">LLM Evaluation</span><span class="tag">Code Generation</span><span class="tag">Hallucination</span></div>
+        <a href="https://arxiv.org/pdf/2306.03438.pdf" target="_blank" class="project-link">
+          Paper &amp; code
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <div class="project-icon" style="background: var(--warm-light); color: var(--warm);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          </div>
+          <span class="project-venue">NeurIPS 2022</span>
+        </div>
+        <div class="project-title">LIFT: Language-Interfaced Fine-Tuning</div>
+        <div class="project-desc">Serializing non-language tasks as natural language and fine-tuning a language model on them works surprisingly well — opening a path toward unified LLM-based ML pipelines across tabular and structured data.</div>
+        <div class="project-tags"><span class="tag">LLM</span><span class="tag">Fine-tuning</span><span class="tag">Tabular</span></div>
+        <a href="https://arxiv.org/abs/2206.06565" target="_blank" class="project-link">
+          Paper &amp; code
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- PUBLICATIONS -->
+  <section id="publications">
+    <div class="section-label">Selected Publications</div>
+    <div class="pub-list">
+      <div class="pub-item">
+        <div class="pub-top"><span class="pub-venue spotlight">Nature Methods 2026</span><span class="pub-year">2026</span></div>
+        <div class="pub-title"><a href="https://www.nature.com/articles/s41592-026-03050-9" target="_blank">VESM: Compressing the collective knowledge of ESM into a single protein language model</a></div>
+        <div class="pub-authors">Tuan Dinh, et al.</div>
+        <div class="pub-tags"><span class="tag">Protein Language Model</span><span class="tag">Co-Distillation</span></div>
+        <div class="pub-links"><a href="https://www.nature.com/articles/s41592-026-03050-9" class="pub-link" target="_blank">Paper</a><a href="https://github.com/ntranoslab/vesm" class="pub-link" target="_blank">Code</a></div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-top"><span class="pub-venue spotlight">ICML 2025 — Spotlight</span><span class="pub-year">2025</span></div>
+        <div class="pub-title"><a href="https://icml.cc/virtual/2025/poster/44649" target="_blank">TabFlex: Scaling Tabular Learning to Millions with Linear Attention</a></div>
+        <div class="pub-authors">Yuchen Zeng*, Tuan Dinh*, et al. </div>
+        <div class="pub-tags"><span class="tag">Tabular</span><span class="tag">Linear Attention</span></div>
+        <div class="pub-links"><a href="https://icml.cc/virtual/2025/poster/44649" class="pub-link" target="_blank">Paper</a><a href="https://icml.cc/virtual/2025/poster/44649" class="pub-link" target="_blank">Code</a></div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-top"><span class="pub-venue">NeurIPS 2023</span><span class="pub-year">2023</span></div>
+        <div class="pub-title"><a href="https://arxiv.org/pdf/2306.03438.pdf" target="_blank">Large Language Models of Code Fail at Completing Code with Potential Bugs</a></div>
+        <div class="pub-authors">Tuan Dinh, et al. (Amazon Science)</div>
+        <div class="pub-tags"><span class="tag">LLM</span><span class="tag">Code</span><span class="tag">Hallucination</span></div>
+        <div class="pub-links"><a href="https://arxiv.org/pdf/2306.03438.pdf" class="pub-link" target="_blank">Paper</a><a href="https://github.com/amazon-science/buggy-code-completion" class="pub-link" target="_blank">Code</a></div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-top"><span class="pub-venue">NeurIPS 2022</span><span class="pub-year">2022</span></div>
+        <div class="pub-title"><a href="https://arxiv.org/abs/2206.06565" target="_blank">LIFT: Language-Interfaced Fine-Tuning for Non-Language Machine Learning Tasks</a></div>
+        <div class="pub-authors">Tuan Dinh*, Yuchen Zeng*, Ruisu Zhang*, et al.</div>
+        <div class="pub-tags"><span class="tag">LLM</span><span class="tag">Fine-tuning</span></div>
+        <div class="pub-links"><a href="https://arxiv.org/abs/2206.06565" class="pub-link" target="_blank">Paper</a><a href="https://github.com/UW-Madison-Lee-Lab/LanguageInterfacedFineTuning" class="pub-link" target="_blank">Code</a></div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-top"><span class="pub-venue">EMNLP 2022 (Findings)</span><span class="pub-year">2022</span></div>
+        <div class="pub-title"><a href="https://arxiv.org/abs/2205.11616" target="_blank">Utilizing Language-Image Pretraining for Efficient and Robust Bilingual Word Alignment</a></div>
+        <div class="pub-authors">Tuan Dinh*, Jy-yong Sohn*, et al.</div>
+        <div class="pub-tags"><span class="tag">Multimodal</span><span class="tag">Word Alignment</span></div>
+        <div class="pub-links"><a href="https://arxiv.org/abs/2205.11616" class="pub-link" target="_blank">Paper</a><a href="https://github.com/UW-Madison-Lee-Lab/walip" class="pub-link" target="_blank">Code</a></div>
+      </div>
+
+      <div class="pub-item hidden-pub">
+        <div class="pub-top"><span class="pub-venue oral">ICML 2021 — Oral</span><span class="pub-year">2021</span></div>
+        <div class="pub-title"><a href="https://arxiv.org/abs/2106.06445" target="_blank">Coded-InvNet for Resilient Prediction Serving Systems</a></div>
+        <div class="pub-authors">Tuan Dinh, Kangwook Lee.</div>
+        <div class="pub-tags"><span class="tag">MLSys</span><span class="tag">GAN</span></div>
+        <div class="pub-links"><a href="https://arxiv.org/abs/2106.06445" class="pub-link" target="_blank">arXiv</a><a href="https://github.com/UW-Madison-Lee-Lab/CodedInvNet" class="pub-link" target="_blank">Code</a></div>
+      </div>
+
+      <div class="pub-item hidden-pub">
+        <div class="pub-top"><span class="pub-venue">IEEE TPAMI 2020</span><span class="pub-year">2020</span></div>
+        <div class="pub-title"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7867665/" target="_blank">Group Difference Testing on Graph Structured Data from GANs: Applications in Neuroimaging</a></div>
+        <div class="pub-authors">Tuan Dinh, et al.</div>
+        <div class="pub-tags"><span class="tag">GAN</span><span class="tag">Medical Imaging</span></div>
+      </div>
+
+    </div>
+    <button class="show-more-btn" onclick="togglePubs(this)">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+      Show more papers
+    </button>
+    <p style="margin-top: 16px; font-size: 13px; color: var(--muted);">
+      Full list on <a href="https://scholar.google.com/citations?user=pVsYxE4AAAAJ&hl=en" style="color: var(--accent);" target="_blank">Google Scholar</a>.
+      Includes 2 US patents in deep learning optimization and inverse graphics.
+    </p>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- PERSONAL -->
+  <section id="personal">
+    <div class="section-label">A bit more</div>
+    <div class="personal-grid">
+
+      <div class="personal-card">
+        <div class="personal-card-label">Currently reading</div>
+        <p>Alternating between ML papers and whatever I can finish on train/shuttle. Favorite: <em>The Three-Body Problem</em>, and a lot on mechanistic interpretability.</p>
+        <!-- UPDATE: swap this out whenever your reading changes -->
+      </div>
+
+      <div class="personal-card">
+        <div class="personal-card-label">On poetry</div>
+        <p>I read and sometimes translate old poems — searching for ones written for a specific moment. One I keep returning to:</p>
+        <p style="margin-top: 10px; padding-left: 12px; border-left: 2px solid var(--border-strong);"><em>"I chase the mist where whispers lie, The wise take wing beneath the sky."</em></p>
+      </div>
+
+      <div class="personal-card">
+        <div class="personal-card-label">Background</div>
+        <p>Originally from Hue, Vietnam. The name is Tuan — <span style="font-family: var(--mono); font-size: 13px; color: var(--muted);">[tʰwɑ̃n]</span>. In Vietnamese, the name structure is reverse of standard English; and the given name is primary.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label">Contact</div>
+    <div class="contact-grid">
+      <a href="mailto:tuan.quang.dinh@proton.me" class="contact-card">
+        <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+        <div><div class="contact-label">Email</div><div class="contact-val">tuan.quang.dinh@proton.me</div></div>
+      </a>
+      <a href="https://scholar.google.com/citations?user=pVsYxE4AAAAJ&hl=en" target="_blank" class="contact-card">
+        <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+        <div><div class="contact-label">Google Scholar</div><div class="contact-val">Tuan Q. Dinh</div></div>
+      </a>
+      <!-- <a href="https://github.com/tuanqdinh" target="_blank" class="contact-card">
+        <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></div>
+        <div><div class="contact-label">GitHub</div><div class="contact-val">tuanqdinh</div></div>
+      </a> -->
+      <a href="https://twitter.com/tuanqdinh" target="_blank" class="contact-card">
+        <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></div>
+        <div><div class="contact-label">Twitter / X</div><div class="contact-val">@tuanqdinh</div></div>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Tuan Q. Dinh</p>
+</footer>
+
+<script>
+function togglePubs(btn) {
+  const hidden = document.querySelectorAll('.hidden-pub');
+  const showing = hidden[0].style.display === 'block';
+  hidden.forEach(el => el.style.display = showing ? 'none' : 'block');
+  btn.innerHTML = showing
+    ? `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg> Show 4 more papers`
+    : `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg> Show fewer`;
+}
+</script>
+
+</body>
+</html>

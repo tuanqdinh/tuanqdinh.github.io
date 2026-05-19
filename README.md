@@ -1,1 +1,0 @@
-A Personalized Webpage based on the template of <a href="https://github.com/sbryngelson/academic-website-template"> Spencer H. Bryngelson</a>
